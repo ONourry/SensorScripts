@@ -13,8 +13,8 @@ def tmux_setup_env():
 
 def generateRMExec():
     subprocess.call(["cd","/home/oliviern/MobileApps/RefactoringMiner"])
-    subprocess.call(["git","clone","https://github.com/ONourry/RefactoringMiner.git"])
-    subprocess.call(["cd","RefactoringMiner"])
+    #subprocess.call(["git","clone","https://github.com/ONourry/RefactoringMiner.git"])
+    #subprocess.call(["cd","RefactoringMiner"])
     subprocess.call(["./gradlew","distZip","-Dorg.gradle.java.home=\"/usr/lib/jvm/java-1.8.0-openjdk.x86_64/\""])
     subprocess.call(["cd","build/distributions"])
     subprocess.call(["unzip","RefactoringMiner-1.0.zip"])
