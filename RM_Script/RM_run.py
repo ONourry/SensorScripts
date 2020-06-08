@@ -29,6 +29,12 @@ def deleteRepoClone(project_path):
     subprocess.call(["rm","-rf",project_path])
 
 
+def main():
+    tmux_setup_env()
+    generateRMExec()
+
+if __name__ == "__main__":
+    main()
 #DEFAULT_JVM_OPTS="-Xms256m -Xmx16g"
 #-Xms256m -Xmx16g
 
