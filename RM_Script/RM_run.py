@@ -93,23 +93,23 @@ def main():
     rm_dir = "/home/olivier/RefactoringMiner/build/distributions/RefactoringMiner-1.0/bin"
     repo_clone_dir = "/home/olivier/clone_dir"
     output_dir = "/home/olivier/output"
-    #
-    # list_id = sys.argv[1]
-    # #setup_env()
-    # #generateRMExec()
-    #
-    # project_list = getProjectList(list_id)
-    #
-    # for project in project_list:
-    #     cloneRepo(repo_clone_dir,project)
-    #
-    #     projectName = project.split("/")[-1]
-    #     project_path = os.path.join(repo_clone_dir,projectName)
-    #     runRM(project_path,rm_dir)
-    #
-    #     deleteRepoClone(projectName,repo_clone_dir)
-    #
-    #     update_rm_column(project)
+
+    list_id = sys.argv[1]
+    #setup_env()
+    #generateRMExec()
+
+    project_list = getProjectList(list_id)
+
+    for project in project_list:
+        cloneRepo(repo_clone_dir,project)
+
+        projectName = project.split("/")[-1]
+        project_path = os.path.join(repo_clone_dir,projectName)
+        runRM(project_path,rm_dir)
+
+        deleteRepoClone(projectName,repo_clone_dir)
+
+        update_rm_column(project)
 
     connection.close()
 
