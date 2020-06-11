@@ -64,7 +64,7 @@ def getProjectList(list_id):
 
 
 def cloneRepo(repo_dir,github_url):
-    command = "git clone " + github_url
+    command = "git clone " + github_url.replace("\'",'')
     clone_process = subprocess.Popen([command],stdout=subprocess.PIPE,cwd=repo_dir)
     output = clone_process.communicate()[0]
 
