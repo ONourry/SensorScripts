@@ -82,16 +82,44 @@ def update_commit_count(github_token):
 
     connection.commit()
 
+
+def assign_list_id():
+    files = ['list1.txt','list2.txt','list3.txt','list4.txt']
+
+    for file in files:
+        with open(os.path.join(os.getcwd(),file)) as text_file:
+            app_list = text_file.read().split("\n")
+            if "1" in file: list_id = 1
+            elif "2" in file: list_id= 2
+            elif "3" in file: list_id = 3
+            elif "4" in file: list_id = 4
+
+            for app in app_list:
+                #print(app,list_id)
+                query = """UPDATE public.app_data SET list_id={list} WHERE source=\'{source}\';""".format(
+                    list=list_id, source=app)
+                print(query)
+
+                cursor.execute(query)
+
+        connection.commit()
+
+
 def main():
     github_token = "9c433aa0695dc1fffe1ad5bb53ce3456a537f070"
-    app_data_file = os.path.join(os.getcwd(), 'jsondata.json')
-    data = crawler.getDataDictionary(app_data_file)  # dict of app data -> see Crawler.py
+    #app_data_file = os.path.join(os.getcwd(), 'jsondata.json')
+    #data = crawler.getDataDictionary(app_data_file)  # dict of app data -> see Crawler.py
 
     #insert_app_data(data)
 
     #update_manifest_count(data,github_token)
 
     #update_commit_count(github_token)
+
+    #assign_list_id()
+
+    #update_rm_column()
+
 
     connection.close()
 

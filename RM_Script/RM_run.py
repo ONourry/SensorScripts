@@ -1,9 +1,28 @@
 import os
 import subprocess
 import sys
+import psycopg2
 
-#test = subprocess.Popen(["ping","-W","2","-c", "1", "192.168.1.70"], stdout=subprocess.PIPE)
-#output = test.communicate()[0]
+cursor=None
+connection=None
+try:
+    connection = psycopg2.connect(user=os.environ.get('POSTGRES_REFACTORING_USER'),
+                                  password=os.environ.get('POSTGRES_REFACTORING_PW'),
+                                  host="127.0.0.1",
+                                  port="5432",
+                                  database="EnergyConsumption")
+    cursor = connection.cursor()
+    # Print PostgreSQL Connection properties
+    print(connection.get_dsn_parameters(), "\n")
+
+    # Print PostgreSQL version
+    cursor.execute("SELECT version();")
+    record = cursor.fetchone()
+    print("You are connected to - ", record, "\n")
+
+except (Exception) as error:
+    print("Error while connecting to PostgreSQL", error)
+
 
 def setup_env():
     subprocess.call(["export","JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64/jre"])
@@ -59,31 +78,44 @@ def deleteRepoClone(projectName,repo_dir):
 
 
 
+def update_rm_column(source):
+    query = """UPDATE public.app_data SET rm_executed={executed} WHERE source=\'{source}\';""".format(
+        executed=1, source=source)
+    print(query)
+
+    cursor.execute(query)
+
+
+    connection.commit()
+
 
 def main():
     rm_dir = "/home/olivier/RefactoringMiner/build/distributions/RefactoringMiner-1.0/bin"
     repo_clone_dir = "/home/olivier/clone_dir"
     output_dir = "/home/olivier/output"
 
-    #list_id = sys.argv[1]
+    list_id = sys.argv[1]
     #setup_env()
     #generateRMExec()
 
-    #project_list = getProjectList(list_id)
+    project_list = getProjectList(list_id)
 
-    #for project in project_list:
-    test_project = "https://github.com/danilofes/refactoring-toy-example"
-    cloneRepo(repo_clone_dir,test_project)
+    for project in project_list:
+        cloneRepo(repo_clone_dir,project)
 
-    projectName = test_project.split("/")[-1]
-    project_path = os.path.join(repo_clone_dir,projectName)
-    runRM(project_path,rm_dir)
+        projectName = project.split("/")[-1]
+        project_path = os.path.join(repo_clone_dir,projectName)
+        runRM(project_path,rm_dir)
 
-    deleteRepoClone(projectName,repo_clone_dir)
+        deleteRepoClone(projectName,repo_clone_dir)
 
+        update_rm_column(project)
+
+    connection.close()
 
 if __name__ == "__main__":
     main()
+
 #DEFAULT_JVM_OPTS="-Xms256m -Xmx16g"
 #-Xms256m -Xmx16g
 
