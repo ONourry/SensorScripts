@@ -44,15 +44,13 @@ def getProjectList(list_id):
 
 
 def cloneRepo(repo_dir,github_url):
-    subprocess.call(["cd",repo_dir],cwd="/")
-    clone_process = subprocess.Popen(["git", "clone",github_url],stdout=subprocess.PIPE)
+    clone_process = subprocess.Popen(["git", "clone",github_url],stdout=subprocess.PIPE,cwd=repo_dir)
     output = clone_process.communicate()[0]
 
 #./RefactoringMiner -a /home/oliviern/RefactoringProject/cloned_projects/jdt_core/eclipse.jdt.core master > jdt_core_output.json
 def runRM(project_path,rm_dir):
-    subprocess.call(["cd",rm_dir],cwd="/")
     rm_process = subprocess.Popen(["./RefactoringMiner","-a",project_path,"master"],
-                                  stdout=subprocess.PIPE)
+                                  stdout=subprocess.PIPE,cwd=rm_dir)
     output = rm_process.communicate()[0]
 
 
