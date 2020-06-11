@@ -1,7 +1,7 @@
 import os
 import subprocess
 import sys
-import psycopg2
+import psycopg2 as psycopg2
 
 cursor=None
 connection=None
