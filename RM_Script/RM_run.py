@@ -115,6 +115,9 @@ def main():
     project_list = getProjectList(list_id)
 
     for project in project_list:
+        project = project.replace("\'",'')
+        project = project.replace("\"", '')
+        
         cloneRepo(repo_clone_dir,project)
 
         projectName = project.split("/")[-1]
