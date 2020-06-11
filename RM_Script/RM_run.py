@@ -45,6 +45,7 @@ def generateRMExec():
 
 def getProjectList(list_id):
     projects = None
+    list_id = int(list_id)
     filepath = os.getcwd()
     if list_id == 1:
         filepath = os.path.join(filepath,"list1.txt")
