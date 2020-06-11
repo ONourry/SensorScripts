@@ -65,7 +65,7 @@ def getProjectList(list_id):
 
 def cloneRepo(repo_dir,github_url):
     command = "git clone " + github_url.replace("\'",'')
-    clone_process = subprocess.Popen([command],stdout=subprocess.PIPE,cwd=repo_dir)
+    clone_process = subprocess.Popen(["git","clone",str(github_url)],stdout=subprocess.PIPE,cwd=repo_dir)
     output = clone_process.communicate()[0]
 
 #./RefactoringMiner -a /home/oliviern/RefactoringProject/cloned_projects/jdt_core/eclipse.jdt.core master > jdt_core_output.json
@@ -117,7 +117,6 @@ def main():
     for project in project_list:
         project = project.replace("\'",'')
         project = project.replace("\"", '')
-        
         cloneRepo(repo_clone_dir,project)
 
         projectName = project.split("/")[-1]
