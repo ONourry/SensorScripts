@@ -54,8 +54,8 @@ def runRM(project_path,rm_dir):
     output = rm_process.communicate()[0]
 
 
-def deleteRepoClone(project_path):
-    subprocess.call(["rm","-rf",project_path])
+def deleteRepoClone(projectName,repo_dir):
+    subprocess.Popen(["rm","-rf",projectName],stdout=subprocess.PIPE,cwd=repo_dir)
 
 
 
@@ -79,6 +79,7 @@ def main():
     project_path = os.path.join(repo_clone_dir,projectName)
     runRM(project_path,rm_dir)
 
+    deleteRepoClone(projectName,repo_clone_dir)
 
 
 if __name__ == "__main__":
