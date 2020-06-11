@@ -79,7 +79,7 @@ def main():
 
     projectName = test_project.split("/")[-1]
     project_path = os.path.join(repo_clone_dir,projectName)
-    runRM(project_path)
+    runRM(project_path,rm_dir)
 
 
 
