@@ -34,6 +34,10 @@ def downloadAPK(apkName,apkDir):
     open(savePath, 'wb').write(req.content)
 
 
+def setupDir(apkName,apkDir,outputDir):
+    pass
+
+
 def updateConfigFile(configFile,apkName,apkDir,outputDir):
     """
     apkLocation = /apk/apkName.apk
@@ -85,6 +89,11 @@ def main():
         # downloadAPK(apkName,apkDir)
 
     for apk in apkDir:
+        outputLocation = os.path.join(outputDir, apk)
+
+        if not os.path.isdir(outputLocation):
+            os.mkdir(outputLocation)
+
         updateConfigFile(configFile,apk,apkDir,outputDir)
 
         #The emulator must be running before running Petra
