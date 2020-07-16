@@ -1,0 +1,516 @@
+{
+	"repository": "https://github.com/fossasia/open-event-attendee-android",
+	"sha1": "e8acbaeacc9b6bb215371596ddf03203c2c04d05",
+	"url": "https://github.com/fossasia/open-event-attendee-android/commit/e8acbaeacc9b6bb215371596ddf03203c2c04d05",
+	"refactorings": [{
+	"type": "Change Return Type",
+	"description": "Change Return Type int to long in method public getIdentity(token String) : long in class org.fossasia.openevent.general.utils.JWTUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/utils/JWTUtils.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 19,
+		"endColumn": 22,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "int"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/utils/JWTUtils.java",
+		"startLine": 27,
+		"endLine": 27,
+		"startColumn": 19,
+		"endColumn": 23,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "long"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/fossasia/open-event-attendee-android",
+	"sha1": "bae405b859ec1eaa20cded78bbfeb852609f3a55",
+	"url": "https://github.com/fossasia/open-event-attendee-android/commit/bae405b859ec1eaa20cded78bbfeb852609f3a55",
+	"refactorings": [{
+	"type": "Rename Variable",
+	"description": "Rename Variable v : View to view : View in method public onCreateViewHolder(parent ViewGroup, viewType int) : EventsRecyclerAdapter.EventViewHolder in class org.fossasia.openevent.general.EventsRecyclerAdapter",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/EventsRecyclerAdapter.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 14,
+		"endColumn": 108,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "v : View"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/EventsRecyclerAdapter.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 14,
+		"endColumn": 111,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "view : View"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter title : String to email : String in method private loginUser(email String, password String) : void in class org.fossasia.openevent.general.LoginActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/LoginActivity.java",
+		"startLine": 68,
+		"endLine": 68,
+		"startColumn": 27,
+		"endColumn": 39,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "title : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/LoginActivity.java",
+		"startLine": 61,
+		"endLine": 61,
+		"startColumn": 28,
+		"endColumn": 40,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "email : String"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter body : String to password : String in method private loginUser(email String, password String) : void in class org.fossasia.openevent.general.LoginActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/LoginActivity.java",
+		"startLine": 68,
+		"endLine": 68,
+		"startColumn": 41,
+		"endColumn": 52,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "body : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/LoginActivity.java",
+		"startLine": 61,
+		"endLine": 61,
+		"startColumn": 42,
+		"endColumn": 57,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "password : String"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable i : Intent to intent : Intent in method public redirectToMain() : void in class org.fossasia.openevent.general.LoginActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/LoginActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 16,
+		"endColumn": 69,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "i : Intent"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/fossasia/openevent/general/LoginActivity.java",
+		"startLine": 56,
+		"endLine": 56,
+		"startColumn": 16,
+		"endColumn": 74,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "intent : Intent"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/fossasia/open-event-attendee-android",
+	"sha1": "d913447aadcad3199ec98a53d0a7eb7370eca48f",
+	"url": "https://github.com/fossasia/open-event-attendee-android/commit/d913447aadcad3199ec98a53d0a7eb7370eca48f",
+	"refactorings": [{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type id : String to id : long in method public getSpeakers(fetchKeySpeaker boolean) : ArrayList<Speaker> in class org.republica.db.DatabaseManager",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/DatabaseManager.java",
+		"startLine": 381,
+		"endLine": 381,
+		"startColumn": 16,
+		"endColumn": 18,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "id : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/DatabaseManager.java",
+		"startLine": 381,
+		"endLine": 381,
+		"startColumn": 14,
+		"endColumn": 16,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "id : long"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type id : String to id : long in method private parseSpeakers(jsonData JSONObject) : void in class org.republica.db.JsonToDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 165,
+		"endLine": 165,
+		"startColumn": 16,
+		"endColumn": 18,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "id : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 161,
+		"endLine": 161,
+		"startColumn": 14,
+		"endColumn": 16,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "id : long"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type String to long in method public getId() : long in class org.republica.model.Speaker",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 67,
+		"endLine": 67,
+		"startColumn": 12,
+		"endColumn": 18,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 67,
+		"endLine": 67,
+		"startColumn": 12,
+		"endColumn": 16,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "long"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type id : String to id : long in class org.republica.model.Speaker",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 24,
+		"endLine": 24,
+		"startColumn": 20,
+		"endColumn": 22,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "id : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 24,
+		"endLine": 24,
+		"startColumn": 18,
+		"endColumn": 20,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "id : long"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type id : String to id : long in method public Speaker(id long, name String, information String, linkedInUrl String, twitterHandle String, designation String, profilePicUrl String, isKeySpeaker int) in class org.republica.model.Speaker",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 20,
+		"endColumn": 29,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "id : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 20,
+		"endColumn": 27,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "id : long"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type id : String to id : long in method public setId(id long) : void in class org.republica.model.Speaker",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 23,
+		"endColumn": 32,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "id : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 23,
+		"endColumn": 30,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "id : long"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/fossasia/open-event-attendee-android",
+	"sha1": "d6e2110253310af5c283898ff0597a7738e2460e",
+	"url": "https://github.com/fossasia/open-event-attendee-android/commit/d6e2110253310af5c283898ff0597a7738e2460e",
+	"refactorings": [{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type id : int to id : String in method public getSpeakers(fetchKeySpeaker boolean) : ArrayList<Speaker> in class org.republica.db.DatabaseManager",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/DatabaseManager.java",
+		"startLine": 381,
+		"endLine": 381,
+		"startColumn": 13,
+		"endColumn": 15,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "id : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/DatabaseManager.java",
+		"startLine": 381,
+		"endLine": 381,
+		"startColumn": 16,
+		"endColumn": 18,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "id : String"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type id : long to id : String in method private parseSpeakers(jsonData JSONObject) : void in class org.republica.db.JsonToDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 162,
+		"endLine": 162,
+		"startColumn": 14,
+		"endColumn": 16,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "id : long"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 167,
+		"endLine": 167,
+		"startColumn": 16,
+		"endColumn": 18,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "id : String"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type int to String in method public getId() : String in class org.republica.model.Speaker",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 67,
+		"endLine": 67,
+		"startColumn": 12,
+		"endColumn": 15,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "int"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 67,
+		"endLine": 67,
+		"startColumn": 12,
+		"endColumn": 18,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "String"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type id : int to id : String in class org.republica.model.Speaker",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 24,
+		"endLine": 24,
+		"startColumn": 17,
+		"endColumn": 19,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "id : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 24,
+		"endLine": 24,
+		"startColumn": 20,
+		"endColumn": 22,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "id : String"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type id : int to id : String in method public Speaker(id String, name String, information String, linkedInUrl String, twitterHandle String, designation String, profilePicUrl String, isKeySpeaker int) in class org.republica.model.Speaker",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 20,
+		"endColumn": 26,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "id : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 20,
+		"endColumn": 29,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "id : String"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type id : int to id : String in method public setId(id String) : void in class org.republica.model.Speaker",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 23,
+		"endColumn": 29,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "id : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/model/Speaker.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 23,
+		"endColumn": 32,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "id : String"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/fossasia/open-event-attendee-android",
+	"sha1": "5f4520a80bc2ba5dcf9d899d2d8e8eb6c4be61fe",
+	"url": "https://github.com/fossasia/open-event-attendee-android/commit/5f4520a80bc2ba5dcf9d899d2d8e8eb6c4be61fe",
+	"refactorings": [{
+	"type": "Rename Method",
+	"description": "Rename Method public parseEvents(url String) : void renamed to public parse(url String) : void in class org.republica.db.JsonToDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 53,
+		"endLine": 190,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public parseEvents(url String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 53,
+		"endLine": 98,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public parse(url String) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/fossasia/open-event-attendee-android",
+	"sha1": "5d0e8e3a9e62bfa9067d76c5f5fea1b8420af036",
+	"url": "https://github.com/fossasia/open-event-attendee-android/commit/5d0e8e3a9e62bfa9067d76c5f5fea1b8420af036",
+	"refactorings": [{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter sponsorUrl : String to url : String in method public parseEvents(url String) : void in class org.republica.db.JsonToDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 59,
+		"endLine": 59,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "sponsorUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 29,
+		"endColumn": 45,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "url : String"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method private SponsorUrl(sponsorUrl String) : void renamed to public parseEvents(url String) : void in class org.republica.db.JsonToDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 59,
+		"endLine": 104,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private SponsorUrl(sponsorUrl String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/republica/db/JsonToDatabase.java",
+		"startLine": 53,
+		"endLine": 190,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public parseEvents(url String) : void"
+}]
+}
+]
+}

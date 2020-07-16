@@ -1,0 +1,30 @@
+{
+	"repository": "https://github.com/AllanWang/Frost-for-Facebook",
+	"sha1": "d9e2562267e549ee407e683262406581f2c4888e",
+	"url": "https://github.com/AllanWang/Frost-for-Facebook/commit/d9e2562267e549ee407e683262406581f2c4888e",
+	"refactorings": [{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter message : String to msg : String in method public println(priority int, tag String, msg String) : int in class android.util.Log",
+	"leftSideLocations": [{
+		"filePath": "app/src/test/kotlin/android/util/Log.java",
+		"startLine": 35,
+		"endLine": 35,
+		"startColumn": 57,
+		"endColumn": 71,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "message : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/test/kotlin/android/util/Log.java",
+		"startLine": 35,
+		"endLine": 35,
+		"startColumn": 57,
+		"endColumn": 67,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "msg : String"
+}]
+}
+]
+}

@@ -1,0 +1,576 @@
+{
+	"repository": "https://github.com/zenorogue/hyperrogue",
+	"sha1": "c7109fe5211975cb11ba59e2051a77c91f1616d0",
+	"url": "https://github.com/zenorogue/hyperrogue/commit/c7109fe5211975cb11ba59e2051a77c91f1616d0",
+	"refactorings": [{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter gl : GL10 to sh : Shader in method public GLText(sh Shader) in class com.android.texample.GLText",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 91,
+		"endLine": 91,
+		"startColumn": 18,
+		"endColumn": 25,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 91,
+		"endLine": 91,
+		"startColumn": 18,
+		"endColumn": 27,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "sh : Shader"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type gl : GL10 to sh : Shader in method public GLText(sh Shader) in class com.android.texample.GLText",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 91,
+		"endLine": 91,
+		"startColumn": 18,
+		"endColumn": 25,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 91,
+		"endLine": 91,
+		"startColumn": 18,
+		"endColumn": 27,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "sh : Shader"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute gl : GL10 to shader : Shader in class com.android.texample.GLText",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 9,
+		"endColumn": 11,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 18,
+		"endColumn": 24,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "shader : Shader"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type gl : GL10 to shader : Shader in class com.android.texample.GLText",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 9,
+		"endColumn": 11,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 18,
+		"endColumn": 24,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "shader : Shader"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter gl : GL10 to sh : Shader in method public SpriteBatch(sh Shader, maxSprites int) in class com.android.texample.SpriteBatch",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 23,
+		"endColumn": 30,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 23,
+		"endColumn": 32,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "sh : Shader"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type gl : GL10 to sh : Shader in method public SpriteBatch(sh Shader, maxSprites int) in class com.android.texample.SpriteBatch",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 23,
+		"endColumn": 30,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 23,
+		"endColumn": 32,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "sh : Shader"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute gl : GL10 to shader : Shader in class com.android.texample.SpriteBatch",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 9,
+		"endColumn": 11,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 11,
+		"endColumn": 17,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "shader : Shader"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type gl : GL10 to shader : Shader in class com.android.texample.SpriteBatch",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 9,
+		"endColumn": 11,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 11,
+		"endColumn": 17,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "shader : Shader"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type gl : GL10 to sh : Shader in method public Vertices(sh Shader, maxVertices int, maxIndices int) in class com.android.texample.Vertices",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 52,
+		"endLine": 52,
+		"startColumn": 20,
+		"endColumn": 27,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 20,
+		"endColumn": 29,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "sh : Shader"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter gl : GL10 to sh : Shader in method public Vertices(sh Shader, maxVertices int, maxIndices int) in class com.android.texample.Vertices",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 52,
+		"endLine": 52,
+		"startColumn": 20,
+		"endColumn": 27,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 20,
+		"endColumn": 29,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "sh : Shader"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute gl : GL10 to sh : Shader in class com.android.texample.Vertices",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 26,
+		"endLine": 26,
+		"startColumn": 15,
+		"endColumn": 17,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 21,
+		"endLine": 21,
+		"startColumn": 17,
+		"endColumn": 19,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "sh : Shader"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type gl : GL10 to sh : Shader in class com.android.texample.Vertices",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 26,
+		"endLine": 26,
+		"startColumn": 15,
+		"endColumn": 17,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 21,
+		"endLine": 21,
+		"startColumn": 17,
+		"endColumn": 19,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "sh : Shader"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter gl : GL10 to unused : GL10 in method public onDrawFrame(unused GL10) : void in class com.roguetemple.hyperroid.HyperRenderer",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRenderer.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 26,
+		"endColumn": 33,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRenderer.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 26,
+		"endColumn": 37,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "unused : GL10"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter gl : GL10 to unused : GL10 in method public onSurfaceChanged(unused GL10, width int, height int) : void in class com.roguetemple.hyperroid.HyperRenderer",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRenderer.java",
+		"startLine": 114,
+		"endLine": 114,
+		"startColumn": 31,
+		"endColumn": 38,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRenderer.java",
+		"startLine": 116,
+		"endLine": 116,
+		"startColumn": 31,
+		"endColumn": 42,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "unused : GL10"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter gl : GL10 to unused : GL10 in method public onSurfaceCreated(unused GL10, config EGLConfig) : void in class com.roguetemple.hyperroid.HyperRenderer",
+	"leftSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRenderer.java",
+		"startLine": 122,
+		"endLine": 122,
+		"startColumn": 31,
+		"endColumn": 38,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "gl : GL10"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRenderer.java",
+		"startLine": 125,
+		"endLine": 125,
+		"startColumn": 31,
+		"endColumn": 42,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "unused : GL10"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/zenorogue/hyperrogue",
+	"sha1": "6978d4bc657b810a41a8a29805f2be8ba7b201dd",
+	"url": "https://github.com/zenorogue/hyperrogue/commit/6978d4bc657b810a41a8a29805f2be8ba7b201dd",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder hydroid to hyperroid",
+	"leftSideLocations": [{
+		"filePath": "hydroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 30,
+		"endLine": 420,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.android.texample.GLText"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 10,
+		"endLine": 125,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.android.texample.SpriteBatch"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/android/texample/TextureRegion.java",
+		"startLine": 6,
+		"endLine": 23,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.android.texample.TextureRegion"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 13,
+		"endLine": 264,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.android.texample.Vertices"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/roguetemple/hyperroid/ForegroundService.java",
+		"startLine": 14,
+		"endLine": 58,
+		"startColumn": 0,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.roguetemple.hyperroid.ForegroundService"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/roguetemple/hyperroid/HyperProvider.java",
+		"startLine": 15,
+		"endLine": 69,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperProvider"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/roguetemple/hyperroid/HyperRenderer.java",
+		"startLine": 14,
+		"endLine": 120,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperRenderer"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/roguetemple/hyperroid/HyperRogue.java",
+		"startLine": 47,
+		"endLine": 588,
+		"startColumn": 0,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperRogue"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/roguetemple/hyperroid/HyperRogue.java",
+		"startLine": 590,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HRConfigChooser"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/roguetemple/hyperroid/HyperSettings.java",
+		"startLine": 6,
+		"endLine": 12,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperSettings"
+}, {
+		"filePath": "hydroid/app/src/main/java/com/roguetemple/hyperroid/HyperView.java",
+		"startLine": 18,
+		"endLine": 247,
+		"startColumn": 0,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperView"
+}],
+	"rightSideLocations": [{
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/GLText.java",
+		"startLine": 30,
+		"endLine": 420,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.android.texample.GLText"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/SpriteBatch.java",
+		"startLine": 10,
+		"endLine": 125,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.android.texample.SpriteBatch"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/TextureRegion.java",
+		"startLine": 6,
+		"endLine": 23,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.android.texample.TextureRegion"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/android/texample/Vertices.java",
+		"startLine": 13,
+		"endLine": 264,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.android.texample.Vertices"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/ForegroundService.java",
+		"startLine": 14,
+		"endLine": 58,
+		"startColumn": 0,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.roguetemple.hyperroid.ForegroundService"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperProvider.java",
+		"startLine": 15,
+		"endLine": 69,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperProvider"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRenderer.java",
+		"startLine": 14,
+		"endLine": 120,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperRenderer"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRogue.java",
+		"startLine": 47,
+		"endLine": 588,
+		"startColumn": 0,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperRogue"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperRogue.java",
+		"startLine": 590,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HRConfigChooser"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperSettings.java",
+		"startLine": 6,
+		"endLine": 12,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperSettings"
+}, {
+		"filePath": "hyperroid/app/src/main/java/com/roguetemple/hyperroid/HyperView.java",
+		"startLine": 18,
+		"endLine": 247,
+		"startColumn": 0,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.roguetemple.hyperroid.HyperView"
+}]
+}
+]
+}

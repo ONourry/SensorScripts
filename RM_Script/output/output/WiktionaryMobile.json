@@ -1,0 +1,4734 @@
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "103243387e17e132535f207193a36f3abb07513d",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/103243387e17e132535f207193a36f3abb07513d",
+	"refactorings": [{
+	"type": "Rename Variable",
+	"description": "Rename Variable urlSubstring : String to wikiUrl : String in method public onCreate(savedInstanceState Bundle) : void in class org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 16,
+		"endColumn": 35,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "urlSubstring : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 18,
+		"endColumn": 36,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "wikiUrl : String"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "9b43bb982fa7ff24cbf896c88a57ddc4a5fae4dc",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/9b43bb982fa7ff24cbf896c88a57ddc4a5fae4dc",
+	"refactorings": [{
+	"type": "Rename Variable",
+	"description": "Rename Variable currentItem : MenuItem to menuItem : MenuItem in method public buildMenu(menu Menu) : boolean in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 217,
+		"endLine": 217,
+		"startColumn": 20,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "currentItem : MenuItem"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 234,
+		"endLine": 234,
+		"startColumn": 16,
+		"endColumn": 24,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "menuItem : MenuItem"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "5d2853672110c79102f080804fb902f1d882db78",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/5d2853672110c79102f080804fb902f1d882db78",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.PreferencesPlugin moved to org.wiktionary.PreferencesPlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/PreferencesPlugin.java",
+		"startLine": 13,
+		"endLine": 58,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.PreferencesPlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/PreferencesPlugin.java",
+		"startLine": 13,
+		"endLine": 58,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.PreferencesPlugin"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "0927506fdce71f62316b5bafcb37bc65623dba64",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/0927506fdce71f62316b5bafcb37bc65623dba64",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.HttpApi moved to org.wiktionary.HttpApi",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.HttpApi"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.HttpApi"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SearchSuggestionsProvider moved to org.wiktionary.SearchSuggestionsProvider",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SearchSuggestionsProvider.java",
+		"startLine": 18,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SearchSuggestionsProvider"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SearchSuggestionsProvider.java",
+		"startLine": 18,
+		"endLine": 71,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SearchSuggestionsProvider"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "ca1ef8068cbe4bb0c26009aa8eb1498486345632",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/ca1ef8068cbe4bb0c26009aa8eb1498486345632",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable startingUrl : String in method public onCreate(savedInstanceState Bundle) : void from class org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 16,
+		"endColumn": 68,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "startingUrl : String"
+}, {
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 9,
+		"endColumn": 36,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "bc17ec309b92430af9da935622e6cfa873d3bbb0",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/bc17ec309b92430af9da935622e6cfa873d3bbb0",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ApplicationVersion moved to org.wiktionary.ApplicationVersion",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ApplicationVersion"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ApplicationVersion"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.CacheModePlugin moved to org.wiktionary.CacheModePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 64,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.CacheModePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 64,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.CacheModePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ClickableDialog moved to org.wiktionary.ClickableDialog",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ClickableDialog"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ClickableDialog"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMeActivity moved to org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMeActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMeActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMePlugin moved to org.wiktionary.NearMePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.RestJsonClient moved to org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.RestJsonClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.RestJsonClient"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SelectTextPlugin moved to org.wiktionary.SelectTextPlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SelectTextPlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SelectTextPlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.WikiItemizedOverlay moved to org.wiktionary.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikiItemizedOverlay"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.WikiItemizedOverlay"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.GeoName moved to org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.GeoName"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.GeoName"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity moved and renamed to org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 12,
+		"endLine": 50,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 12,
+		"endLine": 50,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity.WikipediaWebViewClient moved and renamed to org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity.WikipediaWebViewClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaApp moved and renamed to org.wiktionary.WiktionaryApp",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public getGeoName(title String) : GeoName in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public onCreate(savedInstanceState Bundle) : void in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> renamed to public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> in class org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaUrl() : String renamed to public getWiktionaryUrl() : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaUrl() : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryUrl() : String"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 30,
+		"endColumn": 49,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 31,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public setWikipediaUrl(wikipediaUrl String) : void renamed to public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setWikipediaUrl(wikipediaUrl String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public setWiktionaryUrl(wiktionaryUrl String) : void"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public GeoName(wiktionaryUrl String, title String, summary String, latitude double, longitude double) in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 36,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 37,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute wikipediaUrl : String to wiktionaryUrl : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method protected doInBackground(gps Double...) : Integer in class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 17,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 18,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "d401f0f6f4090924eb03bb0ea6a57c225978db1a",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/d401f0f6f4090924eb03bb0ea6a57c225978db1a",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.HttpApi moved to org.wiktionary.HttpApi",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.HttpApi"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.HttpApi"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SearchSuggestionsProvider moved to org.wiktionary.SearchSuggestionsProvider",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SearchSuggestionsProvider.java",
+		"startLine": 16,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SearchSuggestionsProvider"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SearchSuggestionsProvider.java",
+		"startLine": 16,
+		"endLine": 67,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SearchSuggestionsProvider"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "5911d9466c7c94532256e033949b92f4a4aeb11c",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/5911d9466c7c94532256e033949b92f4a4aeb11c",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable startingUrl : String in method public onCreate(savedInstanceState Bundle) : void from class org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 16,
+		"endColumn": 68,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "startingUrl : String"
+}, {
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 9,
+		"endColumn": 36,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "ce8603afdc4ae305577265d3b36f0e6d06ffb283",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/ce8603afdc4ae305577265d3b36f0e6d06ffb283",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ApplicationVersion moved to org.wiktionary.ApplicationVersion",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ApplicationVersion"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ApplicationVersion"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.CacheModePlugin moved to org.wiktionary.CacheModePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 64,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.CacheModePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 64,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.CacheModePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ClickableDialog moved to org.wiktionary.ClickableDialog",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ClickableDialog"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ClickableDialog"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMeActivity moved to org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMeActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMeActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMePlugin moved to org.wiktionary.NearMePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.RestJsonClient moved to org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.RestJsonClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.RestJsonClient"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SelectTextPlugin moved to org.wiktionary.SelectTextPlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SelectTextPlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SelectTextPlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.WikiItemizedOverlay moved to org.wiktionary.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikiItemizedOverlay"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.WikiItemizedOverlay"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.GeoName moved to org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.GeoName"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.GeoName"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity moved and renamed to org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 12,
+		"endLine": 50,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 12,
+		"endLine": 50,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity.WikipediaWebViewClient moved and renamed to org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity.WikipediaWebViewClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaApp moved and renamed to org.wiktionary.WiktionaryApp",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public getGeoName(title String) : GeoName in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public onCreate(savedInstanceState Bundle) : void in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> renamed to public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> in class org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaUrl() : String renamed to public getWiktionaryUrl() : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaUrl() : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryUrl() : String"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 30,
+		"endColumn": 49,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 31,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public setWikipediaUrl(wikipediaUrl String) : void renamed to public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setWikipediaUrl(wikipediaUrl String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public setWiktionaryUrl(wiktionaryUrl String) : void"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public GeoName(wiktionaryUrl String, title String, summary String, latitude double, longitude double) in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 36,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 37,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute wikipediaUrl : String to wiktionaryUrl : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method protected doInBackground(gps Double...) : Integer in class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 17,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 18,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "043fe7249090cdaa9665a82f0234afb43e2b4cab",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/043fe7249090cdaa9665a82f0234afb43e2b4cab",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.HttpApi moved to org.wiktionary.HttpApi",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.HttpApi"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.HttpApi"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SearchSuggestionsProvider moved to org.wiktionary.SearchSuggestionsProvider",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SearchSuggestionsProvider.java",
+		"startLine": 16,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SearchSuggestionsProvider"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SearchSuggestionsProvider.java",
+		"startLine": 16,
+		"endLine": 67,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SearchSuggestionsProvider"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "98057f5ff155f36e2467fcf87455d86c93991feb",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/98057f5ff155f36e2467fcf87455d86c93991feb",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable startingUrl : String in method public onCreate(savedInstanceState Bundle) : void from class org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 16,
+		"endColumn": 68,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "startingUrl : String"
+}, {
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 9,
+		"endColumn": 36,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "627059a56fa581e23ec407d104ca6f0b9787eb44",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/627059a56fa581e23ec407d104ca6f0b9787eb44",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ApplicationVersion moved to org.wiktionary.ApplicationVersion",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ApplicationVersion"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ApplicationVersion"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.CacheModePlugin moved to org.wiktionary.CacheModePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 64,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.CacheModePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 64,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.CacheModePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ClickableDialog moved to org.wiktionary.ClickableDialog",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ClickableDialog"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ClickableDialog"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMeActivity moved to org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMeActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMeActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMePlugin moved to org.wiktionary.NearMePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.RestJsonClient moved to org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.RestJsonClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.RestJsonClient"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SelectTextPlugin moved to org.wiktionary.SelectTextPlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SelectTextPlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SelectTextPlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.WikiItemizedOverlay moved to org.wiktionary.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikiItemizedOverlay"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.WikiItemizedOverlay"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.GeoName moved to org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.GeoName"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.GeoName"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity moved and renamed to org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 12,
+		"endLine": 50,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 12,
+		"endLine": 50,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity.WikipediaWebViewClient moved and renamed to org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity.WikipediaWebViewClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaApp moved and renamed to org.wiktionary.WiktionaryApp",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public getGeoName(title String) : GeoName in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public onCreate(savedInstanceState Bundle) : void in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> renamed to public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> in class org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaUrl() : String renamed to public getWiktionaryUrl() : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaUrl() : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryUrl() : String"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 30,
+		"endColumn": 49,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 31,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public setWikipediaUrl(wikipediaUrl String) : void renamed to public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setWikipediaUrl(wikipediaUrl String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public setWiktionaryUrl(wiktionaryUrl String) : void"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public GeoName(wiktionaryUrl String, title String, summary String, latitude double, longitude double) in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 36,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 37,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute wikipediaUrl : String to wiktionaryUrl : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method protected doInBackground(gps Double...) : Integer in class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 17,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 18,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "2ccfaf030ca993f1f7238fd8f691cefd80cf6e17",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/2ccfaf030ca993f1f7238fd8f691cefd80cf6e17",
+	"refactorings": [{
+	"type": "Change Package",
+	"description": "Change Package org.wikipedia to org.wiktionary",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.HttpApi"
+}, {
+		"filePath": "src/org/wikipedia/SearchSuggestionsProvider.java",
+		"startLine": 16,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SearchSuggestionsProvider"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.HttpApi"
+}, {
+		"filePath": "src/org/wiktionary/SearchSuggestionsProvider.java",
+		"startLine": 16,
+		"endLine": 67,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SearchSuggestionsProvider"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.HttpApi moved to org.wiktionary.HttpApi",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.HttpApi"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/HttpApi.java",
+		"startLine": 16,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.HttpApi"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SearchSuggestionsProvider moved to org.wiktionary.SearchSuggestionsProvider",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SearchSuggestionsProvider.java",
+		"startLine": 16,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SearchSuggestionsProvider"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SearchSuggestionsProvider.java",
+		"startLine": 16,
+		"endLine": 67,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SearchSuggestionsProvider"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "1b4144fb8e6bf054a586f655f93d9fc00ea606f9",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/1b4144fb8e6bf054a586f655f93d9fc00ea606f9",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable startingUrl : String in method public onCreate(savedInstanceState Bundle) : void from class org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 37,
+		"endLine": 37,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 10,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "startingUrl : String"
+}, {
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 59,
+		"endLine": 59,
+		"startColumn": 9,
+		"endColumn": 36,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "f82aa4cede9f51e1e26867d7d88014ab61141406",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/f82aa4cede9f51e1e26867d7d88014ab61141406",
+	"refactorings": [{
+	"type": "Change Package",
+	"description": "Change Package org.wikipedia to org.wiktionary",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ApplicationVersion"
+}, {
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.CacheModePlugin"
+}, {
+		"filePath": "src/org/wikipedia/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ClickableDialog"
+}, {
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMeActivity"
+}, {
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMePlugin"
+}, {
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.RestJsonClient"
+}, {
+		"filePath": "src/org/wikipedia/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SelectTextPlugin"
+}, {
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikiItemizedOverlay"
+}, {
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.GeoName"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ApplicationVersion"
+}, {
+		"filePath": "src/org/wiktionary/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.CacheModePlugin"
+}, {
+		"filePath": "src/org/wiktionary/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ClickableDialog"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMeActivity"
+}, {
+		"filePath": "src/org/wiktionary/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMePlugin"
+}, {
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.RestJsonClient"
+}, {
+		"filePath": "src/org/wiktionary/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SelectTextPlugin"
+}, {
+		"filePath": "src/org/wiktionary/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.WikiItemizedOverlay"
+}, {
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.GeoName"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ApplicationVersion moved to org.wiktionary.ApplicationVersion",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ApplicationVersion"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ApplicationVersion"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.CacheModePlugin moved to org.wiktionary.CacheModePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.CacheModePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.CacheModePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ClickableDialog moved to org.wiktionary.ClickableDialog",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ClickableDialog"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ClickableDialog"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMeActivity moved to org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMeActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMeActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMePlugin moved to org.wiktionary.NearMePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.RestJsonClient moved to org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.RestJsonClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.RestJsonClient"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SelectTextPlugin moved to org.wiktionary.SelectTextPlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SelectTextPlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SelectTextPlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.WikiItemizedOverlay moved to org.wiktionary.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikiItemizedOverlay"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.WikiItemizedOverlay"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.GeoName moved to org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.GeoName"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.GeoName"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity moved and renamed to org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity.WikipediaWebViewClient moved and renamed to org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity.WikipediaWebViewClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaApp moved and renamed to org.wiktionary.WiktionaryApp",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public getGeoName(title String) : GeoName in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public onCreate(savedInstanceState Bundle) : void in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> renamed to public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> in class org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaUrl() : String renamed to public getWiktionaryUrl() : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaUrl() : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryUrl() : String"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 30,
+		"endColumn": 49,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 31,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public setWikipediaUrl(wikipediaUrl String) : void renamed to public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setWikipediaUrl(wikipediaUrl String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public setWiktionaryUrl(wiktionaryUrl String) : void"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public GeoName(wiktionaryUrl String, title String, summary String, latitude double, longitude double) in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 36,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 37,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute wikipediaUrl : String to wiktionaryUrl : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method protected doInBackground(gps Double...) : Integer in class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 17,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 18,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "6f0fe6b41c43a9ef01e75bc5d28d82085bd3e81a",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/6f0fe6b41c43a9ef01e75bc5d28d82085bd3e81a",
+	"refactorings": [{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method protected isRouteDisplayed() : boolean from class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 171,
+		"endLine": 171,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 171,
+		"endLine": 174,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected isRouteDisplayed() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 170,
+		"endLine": 172,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "protected isRouteDisplayed() : boolean"
+}]
+},
+{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method protected onPreExecute() : void from class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 36,
+		"endLine": 36,
+		"startColumn": 3,
+		"endColumn": 12,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 36,
+		"endLine": 40,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected onPreExecute() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 38,
+		"endLine": 41,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "protected onPreExecute() : void"
+}]
+},
+{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method protected doInBackground(gps Double...) : Integer from class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 3,
+		"endColumn": 12,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 41,
+		"endLine": 53,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected doInBackground(gps Double...) : Integer"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 42,
+		"endLine": 53,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "protected doInBackground(gps Double...) : Integer"
+}]
+},
+{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method protected onPostExecute(result Integer) : void from class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 3,
+		"endColumn": 12,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 54,
+		"endLine": 60,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected onPostExecute(result Integer) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 54,
+		"endLine": 59,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "protected onPostExecute(result Integer) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "92db97f62d78d559570d70cf3f3d8443f6e3baae",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/92db97f62d78d559570d70cf3f3d8443f6e3baae",
+	"refactorings": [{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method protected isRouteDisplayed() : boolean from class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 170,
+		"endLine": 172,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected isRouteDisplayed() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 171,
+		"endLine": 171,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 171,
+		"endLine": 174,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "protected isRouteDisplayed() : boolean"
+}]
+},
+{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method protected onPreExecute() : void from class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 38,
+		"endLine": 41,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected onPreExecute() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 36,
+		"endLine": 36,
+		"startColumn": 3,
+		"endColumn": 12,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 36,
+		"endLine": 40,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "protected onPreExecute() : void"
+}]
+},
+{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method protected doInBackground(gps Double...) : Integer from class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 42,
+		"endLine": 53,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected doInBackground(gps Double...) : Integer"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 3,
+		"endColumn": 12,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 41,
+		"endLine": 53,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "protected doInBackground(gps Double...) : Integer"
+}]
+},
+{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method protected onPostExecute(result Integer) : void from class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 54,
+		"endLine": 59,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected onPostExecute(result Integer) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 3,
+		"endColumn": 12,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 54,
+		"endLine": 60,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "protected onPostExecute(result Integer) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "cf2ac62ce3f6777f44e1e789dc59368949948a03",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/cf2ac62ce3f6777f44e1e789dc59368949948a03",
+	"refactorings": [{
+	"type": "Change Package",
+	"description": "Change Package org.wikipedia to org.wiktionary",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ApplicationVersion"
+}, {
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.CacheModePlugin"
+}, {
+		"filePath": "src/org/wikipedia/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ClickableDialog"
+}, {
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMeActivity"
+}, {
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMePlugin"
+}, {
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.RestJsonClient"
+}, {
+		"filePath": "src/org/wikipedia/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SelectTextPlugin"
+}, {
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikiItemizedOverlay"
+}, {
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.GeoName"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ApplicationVersion"
+}, {
+		"filePath": "src/org/wiktionary/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.CacheModePlugin"
+}, {
+		"filePath": "src/org/wiktionary/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ClickableDialog"
+}, {
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMeActivity"
+}, {
+		"filePath": "src/org/wiktionary/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMePlugin"
+}, {
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.RestJsonClient"
+}, {
+		"filePath": "src/org/wiktionary/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SelectTextPlugin"
+}, {
+		"filePath": "src/org/wiktionary/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.WikiItemizedOverlay"
+}, {
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.GeoName"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ApplicationVersion moved to org.wiktionary.ApplicationVersion",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ApplicationVersion"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ApplicationVersion.java",
+		"startLine": 14,
+		"endLine": 32,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ApplicationVersion"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.CacheModePlugin moved to org.wiktionary.CacheModePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.CacheModePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/CacheModePlugin.java",
+		"startLine": 13,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.CacheModePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.ClickableDialog moved to org.wiktionary.ClickableDialog",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.ClickableDialog"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/ClickableDialog.java",
+		"startLine": 8,
+		"endLine": 27,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.ClickableDialog"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMeActivity moved to org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMeActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 29,
+		"endLine": 209,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMeActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.NearMePlugin moved to org.wiktionary.NearMePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.NearMePlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMePlugin.java",
+		"startLine": 12,
+		"endLine": 55,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.NearMePlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.RestJsonClient moved to org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.RestJsonClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 18,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.RestJsonClient"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.SelectTextPlugin moved to org.wiktionary.SelectTextPlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.SelectTextPlugin"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/SelectTextPlugin.java",
+		"startLine": 12,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.SelectTextPlugin"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.WikiItemizedOverlay moved to org.wiktionary.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikiItemizedOverlay"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WikiItemizedOverlay.java",
+		"startLine": 18,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.WikiItemizedOverlay"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class org.wikipedia.GeoName moved to org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.GeoName"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 3,
+		"endLine": 66,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.wiktionary.GeoName"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity moved and renamed to org.wiktionary.WiktionaryActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaActivity.WikipediaWebViewClient moved and renamed to org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaActivity.WikipediaWebViewClient"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryActivity.java",
+		"startLine": 13,
+		"endLine": 25,
+		"startColumn": 5,
+		"endColumn": 3,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryActivity.WiktionaryWebViewClient"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class org.wikipedia.WikipediaApp moved and renamed to org.wiktionary.WiktionaryApp",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.wikipedia.WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/WiktionaryApp.java",
+		"startLine": 7,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "org.wiktionary.WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public getGeoName(title String) : GeoName in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method public onCreate(savedInstanceState Bundle) : void in class org.wiktionary.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 16,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 17,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> renamed to public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> in class org.wiktionary.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public getWikipediaUrl() : String renamed to public getWiktionaryUrl() : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaUrl() : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 42,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public getWiktionaryUrl() : String"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 30,
+		"endColumn": 49,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 31,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public setWikipediaUrl(wikipediaUrl String) : void renamed to public setWiktionaryUrl(wiktionaryUrl String) : void in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setWikipediaUrl(wikipediaUrl String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 46,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public setWiktionaryUrl(wiktionaryUrl String) : void"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter wikipediaUrl : String to wiktionaryUrl : String in method public GeoName(wiktionaryUrl String, title String, summary String, latitude double, longitude double) in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 36,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 37,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute wikipediaUrl : String to wiktionaryUrl : String in class org.wiktionary.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "wikipediaUrl : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/GeoName.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 17,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "wiktionaryUrl : String"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type app : WikipediaApp to app : WiktionaryApp in method protected doInBackground(gps Double...) : Integer in class org.wiktionary.NearMeActivity.UpdateGeonames",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 17,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "app : WikipediaApp"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wiktionary/NearMeActivity.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 18,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "app : WiktionaryApp"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "4956fb5cedbd90884cb1c76272db27a2f1b1d43e",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/4956fb5cedbd90884cb1c76272db27a2f1b1d43e",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter lang : String in method public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName> from class org.wikipedia.RestJsonClient",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 70,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getWikipediaNearbyLocations(latitude double, longitude double) : ArrayList<GeoName>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 21,
+		"endLine": 21,
+		"startColumn": 39,
+		"endColumn": 50,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "lang : String"
+}, {
+		"filePath": "src/org/wikipedia/RestJsonClient.java",
+		"startLine": 20,
+		"endLine": 71,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public getWikipediaNearbyLocations(latitude double, longitude double, lang String) : ArrayList<GeoName>"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "f3325e4e296f70931d1fc1c003f60a7b985aa08b",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/f3325e4e296f70931d1fc1c003f60a7b985aa08b",
+	"refactorings": [{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method public onCreate(savedInstanceState Bundle) : void from class org.wikipedia.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 92,
+		"endLine": 122,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public onCreate(savedInstanceState Bundle) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 94,
+		"endLine": 94,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 94,
+		"endLine": 131,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "public onCreate(savedInstanceState Bundle) : void"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private geonames : ArrayList<GeoName> from class org.wikipedia.NearMeActivity to public geonames : ArrayList<GeoName> from class org.wikipedia.WikipediaApp",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 34,
+		"endLine": 34,
+		"startColumn": 29,
+		"endColumn": 37,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private geonames : ArrayList<GeoName>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/WikipediaApp.java",
+		"startLine": 8,
+		"endLine": 8,
+		"startColumn": 28,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "public geonames : ArrayList<GeoName>"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "430a38fbd588b3fad3d39af7961c994a400820ff",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/430a38fbd588b3fad3d39af7961c994a400820ff",
+	"refactorings": [{
+	"type": "Rename Method",
+	"description": "Rename Method protected onPause() : void renamed to protected onStop() : void in class org.wikipedia.NearMeActivity",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 123,
+		"endLine": 130,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected onPause() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMeActivity.java",
+		"startLine": 137,
+		"endLine": 146,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "protected onStop() : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "f1747823c91baa0a176acca6dc08df00db7467f5",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/f1747823c91baa0a176acca6dc08df00db7467f5",
+	"refactorings": [{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type dialog : Dialog to dialog : ClickableDialog in method protected onTap(index int) : boolean in class org.wikipedia.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 56,
+		"endLine": 56,
+		"startColumn": 17,
+		"endColumn": 46,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "dialog : Dialog"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 55,
+		"endLine": 55,
+		"startColumn": 26,
+		"endColumn": 64,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "dialog : ClickableDialog"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "eafad8f03ccd16de6ad3ad11672557f10f95da8a",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/eafad8f03ccd16de6ad3ad11672557f10f95da8a",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter mode : String in method public setCacheMode(mode String) : void from class org.wikipedia.CacheModePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 32,
+		"endLine": 38,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setCacheMode() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 37,
+		"endLine": 37,
+		"startColumn": 27,
+		"endColumn": 38,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "mode : String"
+}, {
+		"filePath": "src/org/wikipedia/CacheModePlugin.java",
+		"startLine": 37,
+		"endLine": 44,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public setCacheMode(mode String) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "e4cd16da9edcbfe75793ca9d064519c6d13a4c60",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/e4cd16da9edcbfe75793ca9d064519c6d13a4c60",
+	"refactorings": [{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type idx : int to ma : NearMeActivity in method protected onTap(index int) : boolean in class org.wikipedia.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 52,
+		"endLine": 52,
+		"startColumn": 13,
+		"endColumn": 24,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "idx : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 52,
+		"endLine": 52,
+		"startColumn": 24,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "ma : NearMeActivity"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type item : OverlayItem to geoname : GeoName in method protected onTap(index int) : boolean in class org.wikipedia.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 15,
+		"endColumn": 42,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "item : OverlayItem"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 17,
+		"endColumn": 73,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "geoname : GeoName"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable idx : int to ma : NearMeActivity in method protected onTap(index int) : boolean in class org.wikipedia.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 52,
+		"endLine": 52,
+		"startColumn": 13,
+		"endColumn": 24,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "idx : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 52,
+		"endLine": 52,
+		"startColumn": 24,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "ma : NearMeActivity"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable item : OverlayItem to geoname : GeoName in method protected onTap(index int) : boolean in class org.wikipedia.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 15,
+		"endColumn": 42,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "item : OverlayItem"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 17,
+		"endColumn": 73,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "geoname : GeoName"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "61644931183bd96e040cf7f26038a869adace834",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/61644931183bd96e040cf7f26038a869adace834",
+	"refactorings": [{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter arg1 : JSONArray to args : JSONArray in method public execute(action String, args JSONArray, callbackId String) : PluginResult in class org.wikipedia.NearMePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 13,
+		"endLine": 13,
+		"startColumn": 43,
+		"endColumn": 57,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "arg1 : JSONArray"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 45,
+		"endColumn": 59,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "args : JSONArray"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter arg0 : String to action : String in method public execute(action String, args JSONArray, callbackId String) : PluginResult in class org.wikipedia.NearMePlugin",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 13,
+		"endLine": 13,
+		"startColumn": 30,
+		"endColumn": 41,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "arg0 : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/NearMePlugin.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 30,
+		"endColumn": 43,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "action : String"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type dialog : AlertDialog.Builder to dialog : Dialog in method protected onTap(index int) : boolean in class org.wikipedia.WikiItemizedOverlay",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 44,
+		"endLine": 44,
+		"startColumn": 23,
+		"endColumn": 65,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "dialog : AlertDialog.Builder"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/WikiItemizedOverlay.java",
+		"startLine": 55,
+		"endLine": 55,
+		"startColumn": 16,
+		"endColumn": 45,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "dialog : Dialog"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "139edec5e4b6e811d2c92651b9efa774a59d9d28",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/139edec5e4b6e811d2c92651b9efa774a59d9d28",
+	"refactorings": [{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method public isMenuChanged() : boolean from class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 60,
+		"endLine": 60,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 55,
+		"endLine": 63,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public isMenuChanged() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 129,
+		"endLine": 132,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "public isMenuChanged() : boolean"
+}]
+},
+{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method public buildMenu(menu Menu) : boolean from class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 65,
+		"endLine": 88,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public buildMenu(menu Menu) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 134,
+		"endLine": 159,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "public buildMenu(menu Menu) : boolean"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type void to PluginResult in method private createMenu(args JSONArray) : PluginResult in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 103,
+		"endLine": 103,
+		"startColumn": 10,
+		"endColumn": 14,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 61,
+		"endLine": 61,
+		"startColumn": 10,
+		"endColumn": 22,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "PluginResult"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private refresh(args JSONArray) : PluginResult extracted from public execute(action String, args JSONArray, callbackId String) : PluginResult in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 21,
+		"endLine": 43,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "public execute(action String, args JSONArray, callbackId String) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 3,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 55,
+		"endLine": 59,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private refresh(args JSONArray) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 3,
+		"endColumn": 51,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 34,
+		"endLine": 53,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "public execute(action String, args JSONArray, callbackId String) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 11,
+		"endColumn": 29,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "this.refresh(args)"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 3,
+		"endColumn": 27,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute menuItems : ArrayList<MenuInfo> to items : ArrayList<MenuInfo> in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 31,
+		"endColumn": 40,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "menuItems : ArrayList<MenuInfo>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 31,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "items : ArrayList<MenuInfo>"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "2312c72b1c484c9d21162b6f6f14924522d6df4c",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/2312c72b1c484c9d21162b6f6f14924522d6df4c",
+	"refactorings": [{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter elevation : int in method public GeoName(elevation int, wikipediaUrl String, title String, rank int, summary String, latitude double, longitude double) from class org.wikipedia.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 5,
+		"startColumn": 17,
+		"endColumn": 30,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "elevation : int"
+}, {
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public GeoName(elevation int, wikipediaUrl String, title String, rank int, summary String, latitude double, longitude double)"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 13,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public GeoName(wikipediaUrl String, title String, summary String, latitude double, longitude double)"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter rank : int in method public GeoName(elevation int, wikipediaUrl String, title String, rank int, summary String, latitude double, longitude double) from class org.wikipedia.GeoName",
+	"leftSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 6,
+		"endLine": 6,
+		"startColumn": 39,
+		"endColumn": 47,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "rank : int"
+}, {
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public GeoName(elevation int, wikipediaUrl String, title String, rank int, summary String, latitude double, longitude double)"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/wikipedia/GeoName.java",
+		"startLine": 5,
+		"endLine": 13,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public GeoName(wikipediaUrl String, title String, summary String, latitude double, longitude double)"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "bd1916e8ebd3c50a84dcb9ee154f9ad7d3be3c55",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/bd1916e8ebd3c50a84dcb9ee154f9ad7d3be3c55",
+	"refactorings": [{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method public isMenuChanged() : boolean from class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 129,
+		"endLine": 132,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public isMenuChanged() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 60,
+		"endLine": 60,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 55,
+		"endLine": 63,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "public isMenuChanged() : boolean"
+}]
+},
+{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method public buildMenu(menu Menu) : boolean from class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 134,
+		"endLine": 159,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public buildMenu(menu Menu) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 65,
+		"endLine": 88,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "public buildMenu(menu Menu) : boolean"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type PluginResult to void in method private createMenu(args JSONArray) : void in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 61,
+		"endLine": 61,
+		"startColumn": 10,
+		"endColumn": 22,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "PluginResult"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 103,
+		"endLine": 103,
+		"startColumn": 10,
+		"endColumn": 14,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "void"
+}]
+},
+{
+	"type": "Inline Method",
+	"description": "Inline Method private refresh(args JSONArray) : PluginResult inlined to public execute(action String, args JSONArray, callbackId String) : PluginResult in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 55,
+		"endLine": 59,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "inlined method declaration",
+		"codeElement": "private refresh(args JSONArray) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 3,
+		"endColumn": 51,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "inlined code from inlined method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 34,
+		"endLine": 53,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "target method declaration before inline",
+		"codeElement": "public execute(action String, args JSONArray, callbackId String) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 11,
+		"endColumn": 29,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "inlined method invocation",
+		"codeElement": "this.refresh(args)"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 3,
+		"endColumn": 27,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "deleted statement in inlined method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 21,
+		"endLine": 43,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "target method declaration after inline",
+		"codeElement": "public execute(action String, args JSONArray, callbackId String) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 3,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "inlined code in target method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute items : ArrayList<MenuInfo> to menuItems : ArrayList<MenuInfo> in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 31,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "items : ArrayList<MenuInfo>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 31,
+		"endColumn": 40,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "menuItems : ArrayList<MenuInfo>"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method private getIcon(tmp_uri String) : Drawable from class com.phonegap.menu.AppMenu to private getIcon(tmp_uri String) : Drawable from class com.phonegap.menu.MenuInfo",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 121,
+		"endLine": 127,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getIcon(tmp_uri String) : Drawable"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenuItem.java",
+		"startLine": 82,
+		"endLine": 94,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "private getIcon(tmp_uri String) : Drawable"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/wikimedia/WiktionaryMobile",
+	"sha1": "5ecde4612bad78ac782770dc2983101b07997c73",
+	"url": "https://github.com/wikimedia/WiktionaryMobile/commit/5ecde4612bad78ac782770dc2983101b07997c73",
+	"refactorings": [{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method public isMenuChanged() : boolean from class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 60,
+		"endLine": 60,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 55,
+		"endLine": 63,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public isMenuChanged() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 129,
+		"endLine": 132,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "public isMenuChanged() : boolean"
+}]
+},
+{
+	"type": "Remove Method Annotation",
+	"description": "Remove Method Annotation @Override in method public buildMenu(menu Menu) : boolean from class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "removed annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 65,
+		"endLine": 88,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public buildMenu(menu Menu) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 134,
+		"endLine": 159,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed annotation",
+		"codeElement": "public buildMenu(menu Menu) : boolean"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type void to PluginResult in method private createMenu(args JSONArray) : PluginResult in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 103,
+		"endLine": 103,
+		"startColumn": 10,
+		"endColumn": 14,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 61,
+		"endLine": 61,
+		"startColumn": 10,
+		"endColumn": 22,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "PluginResult"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private refresh(args JSONArray) : PluginResult extracted from public execute(action String, args JSONArray, callbackId String) : PluginResult in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 21,
+		"endLine": 43,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "public execute(action String, args JSONArray, callbackId String) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 3,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 55,
+		"endLine": 59,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private refresh(args JSONArray) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 3,
+		"endColumn": 51,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 34,
+		"endLine": 53,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "public execute(action String, args JSONArray, callbackId String) : PluginResult"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 11,
+		"endColumn": 29,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "this.refresh(args)"
+}, {
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 3,
+		"endColumn": 27,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute menuItems : ArrayList<MenuInfo> to items : ArrayList<MenuInfo> in class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 31,
+		"endColumn": 40,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "menuItems : ArrayList<MenuInfo>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 31,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "items : ArrayList<MenuInfo>"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method private getIcon(tmp_uri String) : Drawable from class com.phonegap.menu.MenuInfo to private getIcon(tmp_uri String) : Drawable from class com.phonegap.menu.AppMenu",
+	"leftSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenuItem.java",
+		"startLine": 82,
+		"endLine": 94,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getIcon(tmp_uri String) : Drawable"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/phonegap/menu/AppMenu.java",
+		"startLine": 121,
+		"endLine": 127,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "private getIcon(tmp_uri String) : Drawable"
+}]
+}
+]
+}

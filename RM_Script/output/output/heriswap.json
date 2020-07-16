@@ -1,0 +1,1455 @@
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "bf710d44c39a7486da04a8b1049d54f2e7133a60",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/bf710d44c39a7486da04a8b1049d54f2e7133a60",
+	"refactorings": [{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class net.damsy.soupeaucaillou.prototype.PrototypeActivity moved and renamed to net.damsy.soupeaucaillou.heriswap.HeriswapActivity",
+	"leftSideLocations": [{
+		"filePath": "platforms/android/src/net/damsy/soupeaucaillou/prototype/PrototypeActivity.java",
+		"startLine": 26,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.prototype.PrototypeActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "platforms/android/src/net/damsy/soupeaucaillou/heriswap/HeriswapActivity.java",
+		"startLine": 26,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapActivity"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class net.damsy.soupeaucaillou.prototype.PrototypeApplication moved and renamed to net.damsy.soupeaucaillou.heriswap.HeriswapApplication",
+	"leftSideLocations": [{
+		"filePath": "platforms/android/src/net/damsy/soupeaucaillou/prototype/PrototypeApplication.java",
+		"startLine": 24,
+		"endLine": 30,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.prototype.PrototypeApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "platforms/android/src/net/damsy/soupeaucaillou/heriswap/HeriswapApplication.java",
+		"startLine": 24,
+		"endLine": 30,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapApplication"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "b4e4c36d0c9722a476898ab4c38352aea8f602bf",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/b4e4c36d0c9722a476898ab4c38352aea8f602bf",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder src to android/src",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapActivity.java",
+		"startLine": 34,
+		"endLine": 143,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapActivity"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapApplication.java",
+		"startLine": 24,
+		"endLine": 30,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapApplication"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapStorage.java",
+		"startLine": 25,
+		"endLine": 65,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapStorage"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/api/NameInputAPI.java",
+		"startLine": 9,
+		"endLine": 80,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.api.NameInputAPI"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/api/StorageAPI.java",
+		"startLine": 14,
+		"endLine": 144,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.api.StorageAPI"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/src/net/damsy/soupeaucaillou/heriswap/HeriswapActivity.java",
+		"startLine": 34,
+		"endLine": 143,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapActivity"
+}, {
+		"filePath": "android/src/net/damsy/soupeaucaillou/heriswap/HeriswapApplication.java",
+		"startLine": 24,
+		"endLine": 30,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapApplication"
+}, {
+		"filePath": "android/src/net/damsy/soupeaucaillou/heriswap/HeriswapStorage.java",
+		"startLine": 25,
+		"endLine": 65,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapStorage"
+}, {
+		"filePath": "android/src/net/damsy/soupeaucaillou/heriswap/api/NameInputAPI.java",
+		"startLine": 9,
+		"endLine": 80,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.api.NameInputAPI"
+}, {
+		"filePath": "android/src/net/damsy/soupeaucaillou/heriswap/api/StorageAPI.java",
+		"startLine": 14,
+		"endLine": 144,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.api.StorageAPI"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "174bf71b4f3821019a861d58fac63def8b26019d",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/174bf71b4f3821019a861d58fac63def8b26019d",
+	"refactorings": [{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class net.damsy.soupeaucaillou.heriswap.HeriswapJNILib moved and renamed to net.damsy.soupeaucaillou.heriswap.api.StorageAPI",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 52,
+		"endLine": 815,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapJNILib"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/api/StorageAPI.java",
+		"startLine": 12,
+		"endLine": 139,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.api.StorageAPI"
+}]
+},
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.damsy.soupeaucaillou.heriswap.api.NameInputAPI from class net.damsy.soupeaucaillou.heriswap.HeriswapJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 52,
+		"endLine": 815,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapJNILib"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/api/NameInputAPI.java",
+		"startLine": 9,
+		"endLine": 80,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.api.NameInputAPI"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute public nameReady : boolean from class net.damsy.soupeaucaillou.heriswap.HeriswapActivity to public nameReady : boolean from class net.damsy.soupeaucaillou.heriswap.api.NameInputAPI",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapActivity.java",
+		"startLine": 65,
+		"endLine": 65,
+		"startColumn": 24,
+		"endColumn": 33,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public nameReady : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/api/NameInputAPI.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 24,
+		"endColumn": 33,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "public nameReady : boolean"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method public showPlayerNameUi() : void from class net.damsy.soupeaucaillou.heriswap.HeriswapJNILib to public showPlayerNameUi() : void from class net.damsy.soupeaucaillou.heriswap.api.NameInputAPI",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 347,
+		"endLine": 402,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public showPlayerNameUi() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/api/NameInputAPI.java",
+		"startLine": 15,
+		"endLine": 70,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public showPlayerNameUi() : void"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method public queryPlayerName() : String from class net.damsy.soupeaucaillou.heriswap.HeriswapJNILib to public queryPlayerName() : String from class net.damsy.soupeaucaillou.heriswap.api.NameInputAPI",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 404,
+		"endLine": 411,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public queryPlayerName() : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/api/NameInputAPI.java",
+		"startLine": 72,
+		"endLine": 79,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public queryPlayerName() : String"
+}]
+},
+{
+	"type": "Add Method Annotation",
+	"description": "Add Method Annotation @Override in method public canShowAppRater() : boolean from class net.damsy.soupeaucaillou.heriswap.HeriswapActivity",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 441,
+		"endLine": 463,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public mustShowRateDialog() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapActivity.java",
+		"startLine": 39,
+		"endLine": 39,
+		"startColumn": 2,
+		"endColumn": 11,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Override"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapActivity.java",
+		"startLine": 39,
+		"endLine": 56,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added annotation",
+		"codeElement": "public canShowAppRater() : boolean"
+}]
+},
+{
+	"type": "Move And Rename Method",
+	"description": "Move And Rename Method public mustShowRateDialog() : boolean from class net.damsy.soupeaucaillou.heriswap.HeriswapJNILib to public canShowAppRater() : boolean from class net.damsy.soupeaucaillou.heriswap.HeriswapActivity",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 441,
+		"endLine": 463,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public mustShowRateDialog() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapActivity.java",
+		"startLine": 39,
+		"endLine": 56,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public canShowAppRater() : boolean"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "b4f0850a2f15362ea2a5d9b0f9df3c4a7d72ca18",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/b4f0850a2f15362ea2a5d9b0f9df3c4a7d72ca18",
+	"refactorings": [{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter id : int to idS : int in method public unlockAchievement(idS int) : void in class net.damsy.soupeaucaillou.heriswap.HeriswapJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 350,
+		"endLine": 350,
+		"startColumn": 39,
+		"endColumn": 45,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "id : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 367,
+		"endLine": 367,
+		"startColumn": 39,
+		"endColumn": 46,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "idS : int"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "6292dbd609742a596a1403fdaf645e504aebf3d5",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/6292dbd609742a596a1403fdaf645e504aebf3d5",
+	"refactorings": [{
+	"type": "Change Return Type",
+	"description": "Change Return Type void to boolean in method public playSound(soundID int, volume float) : boolean in class net.damsy.soupeaucaillou.heriswap.HeriswapJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 164,
+		"endLine": 164,
+		"startColumn": 16,
+		"endColumn": 20,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 164,
+		"endLine": 164,
+		"startColumn": 16,
+		"endColumn": 23,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "boolean"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "2378e1c70cf63253131e236573bd12bc9759fb5e",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/2378e1c70cf63253131e236573bd12bc9759fb5e",
+	"refactorings": [{
+	"type": "Change Return Type",
+	"description": "Change Return Type void to boolean in method public showAd() : boolean in class net.damsy.soupeaucaillou.heriswap.HeriswapJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 70,
+		"endLine": 70,
+		"startColumn": 16,
+		"endColumn": 20,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 16,
+		"endColumn": 23,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "boolean"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "3f770a329a77cc346882d4c70e826c4d947e5800",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/3f770a329a77cc346882d4c70e826c4d947e5800",
+	"refactorings": [{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter r : Renderer in method public GL2JNIView(context Context, r Renderer, set AttributeSet) from class net.damsy.soupeaucaillou.heriswap.GL2JNIView",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 40,
+		"endColumn": 50,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "r : Renderer"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 53,
+		"endLine": 56,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public GL2JNIView(context Context, r Renderer, set AttributeSet)"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 53,
+		"endLine": 56,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public GL2JNIView(context Context, set AttributeSet)"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter r : Renderer in method public GL2JNIView(context Context, r Renderer, translucent boolean, depth int, stencil int) from class net.damsy.soupeaucaillou.heriswap.GL2JNIView",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 40,
+		"endColumn": 50,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "r : Renderer"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 58,
+		"endLine": 61,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public GL2JNIView(context Context, r Renderer, translucent boolean, depth int, stencil int)"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 58,
+		"endLine": 61,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public GL2JNIView(context Context, translucent boolean, depth int, stencil int)"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter r : Renderer in method private init(r Renderer, translucent boolean, depth int, stencil int) : void from class net.damsy.soupeaucaillou.heriswap.GL2JNIView",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 23,
+		"endColumn": 33,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "r : Renderer"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 63,
+		"endLine": 86,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private init(r Renderer, translucent boolean, depth int, stencil int) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 63,
+		"endLine": 84,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "private init(translucent boolean, depth int, stencil int) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "982343c134498b9dda12153c734691c808da9024",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/982343c134498b9dda12153c734691c808da9024",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class net.damsy.soupeaucaillou.tilematch.GL2JNIView moved to net.damsy.soupeaucaillou.heriswap.GL2JNIView",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 31,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.tilematch.GL2JNIView"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/GL2JNIView.java",
+		"startLine": 31,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.GL2JNIView"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class net.damsy.soupeaucaillou.tilematch.TilematchJNILib moved and renamed to net.damsy.soupeaucaillou.heriswap.HeriswapJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 29,
+		"endLine": 617,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.tilematch.TilematchJNILib"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapJNILib.java",
+		"startLine": 28,
+		"endLine": 616,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapJNILib"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class net.damsy.soupeaucaillou.tilematch.TilematchRenderer moved and renamed to net.damsy.soupeaucaillou.heriswap.HeriswapRenderer",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 11,
+		"endLine": 122,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.tilematch.TilematchRenderer"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapRenderer.java",
+		"startLine": 11,
+		"endLine": 122,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapRenderer"
+}]
+},
+{
+	"type": "Move And Rename Class",
+	"description": "Move And Rename Class net.damsy.soupeaucaillou.tilematch.TilematchStorage moved and renamed to net.damsy.soupeaucaillou.heriswap.HeriswapStorage",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchStorage.java",
+		"startLine": 7,
+		"endLine": 47,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.tilematch.TilematchStorage"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/heriswap/HeriswapStorage.java",
+		"startLine": 7,
+		"endLine": 47,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved and renamed type declaration",
+		"codeElement": "net.damsy.soupeaucaillou.heriswap.HeriswapStorage"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "98eec9a64a74386114614226626dc681e8fbd97b",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/98eec9a64a74386114614226626dc681e8fbd97b",
+	"refactorings": [{
+	"type": "Replace Variable With Attribute",
+	"description": "Replace Variable With Attribute r : Renderer to renderer : TilematchRenderer in method protected onCreate(savedInstanceState Bundle) : void in class net.damsy.soupeaucaillou.tilematch.TilematchActivity",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchActivity.java",
+		"startLine": 122,
+		"endLine": 122,
+		"startColumn": 18,
+		"endColumn": 56,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "r : Renderer"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchActivity.java",
+		"startLine": 69,
+		"endLine": 69,
+		"startColumn": 20,
+		"endColumn": 28,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "renderer : TilematchRenderer"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type r : Renderer to renderer : TilematchRenderer in method protected onCreate(savedInstanceState Bundle) : void in class net.damsy.soupeaucaillou.tilematch.TilematchActivity",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchActivity.java",
+		"startLine": 122,
+		"endLine": 122,
+		"startColumn": 18,
+		"endColumn": 56,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "r : Renderer"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchActivity.java",
+		"startLine": 69,
+		"endLine": 69,
+		"startColumn": 20,
+		"endColumn": 28,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "renderer : TilematchRenderer"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "3c16b8bcdd150c0f68a094316bea7e16f8eb46e0",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/3c16b8bcdd150c0f68a094316bea7e16f8eb46e0",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable count : int in method public run() : void from class net.damsy.soupeaucaillou.tilematch.TilematchJNILib.showPlayerNameUi.post",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 251,
+		"endLine": 256,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "FOR_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 251,
+		"endLine": 251,
+		"startColumn": 13,
+		"endColumn": 38,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "count : int"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 257,
+		"endLine": 261,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "FOR_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "caa8a74e45dd90ac33f57d26d46a5689b8dc99f9",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/caa8a74e45dd90ac33f57d26d46a5689b8dc99f9",
+	"refactorings": [{
+	"type": "Change Return Type",
+	"description": "Change Return Type void to byte[] in method public queueMusicData(o Object, audioData byte[], size int, sampleRate int) : byte[] in class net.damsy.soupeaucaillou.tilematch.TilematchJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 356,
+		"endLine": 356,
+		"startColumn": 19,
+		"endColumn": 23,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 364,
+		"endLine": 364,
+		"startColumn": 19,
+		"endColumn": 25,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "byte[]"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "196c9ff653265a3702d06b9404697250c45d0b0a",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/196c9ff653265a3702d06b9404697250c45d0b0a",
+	"refactorings": [{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute isPaused : boolean to requestPausedFromJava : boolean in class net.damsy.soupeaucaillou.tilematch.TilematchActivity",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchActivity.java",
+		"startLine": 51,
+		"endLine": 51,
+		"startColumn": 24,
+		"endColumn": 32,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "isPaused : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchActivity.java",
+		"startLine": 51,
+		"endLine": 51,
+		"startColumn": 24,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "requestPausedFromJava : boolean"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "238ecb551a69ca1ddf58b493f7864588a495d5e3",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/238ecb551a69ca1ddf58b493f7864588a495d5e3",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter difficulty : int in method public getScores(mode int, difficulty int, points int[], levels int[], times float[], names String[]) : int from class net.damsy.soupeaucaillou.tilematch.TilematchJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 157,
+		"endLine": 179,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getScores(mode int, points int[], levels int[], times float[], names String[]) : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 160,
+		"endLine": 160,
+		"startColumn": 43,
+		"endColumn": 57,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "difficulty : int"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 160,
+		"endLine": 182,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public getScores(mode int, difficulty int, points int[], levels int[], times float[], names String[]) : int"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "6e3c0d016d0d207772d21cc2a5ce94c63bf834ca",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/6e3c0d016d0d207772d21cc2a5ce94c63bf834ca",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter difficulty : int in method public submitScore(mode int, difficulty int, points int, level int, time float, name String) : void from class net.damsy.soupeaucaillou.tilematch.TilematchJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 111,
+		"endLine": 141,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public submitScore(mode int, points int, level int, time float, name String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 111,
+		"endLine": 111,
+		"startColumn": 46,
+		"endColumn": 60,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "difficulty : int"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 111,
+		"endLine": 144,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public submitScore(mode int, difficulty int, points int, level int, time float, name String) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "a99c21183cb59474732eaafbd7c2d00c6c0f4894",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/a99c21183cb59474732eaafbd7c2d00c6c0f4894",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter master : Object in method public startPlaying(o Object, master Object, offset int) : void from class net.damsy.soupeaucaillou.tilematch.TilematchJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 372,
+		"endLine": 380,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public startPlaying(o Object) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 410,
+		"endLine": 410,
+		"startColumn": 47,
+		"endColumn": 60,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "master : Object"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 410,
+		"endLine": 424,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public startPlaying(o Object, master Object, offset int) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter offset : int in method public startPlaying(o Object, master Object, offset int) : void from class net.damsy.soupeaucaillou.tilematch.TilematchJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 372,
+		"endLine": 380,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public startPlaying(o Object) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 410,
+		"endLine": 410,
+		"startColumn": 62,
+		"endColumn": 72,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "offset : int"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 410,
+		"endLine": 424,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public startPlaying(o Object, master Object, offset int) : void"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type writePendings : Queue<byte[]> to writePendings : Queue<Command> in class net.damsy.soupeaucaillou.tilematch.TilematchJNILib.DumbAndroid",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 302,
+		"endLine": 302,
+		"startColumn": 20,
+		"endColumn": 33,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "writePendings : Queue<byte[]>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 316,
+		"endLine": 316,
+		"startColumn": 21,
+		"endColumn": 34,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "writePendings : Queue<Command>"
+}]
+},
+{
+	"type": "Replace Variable With Attribute",
+	"description": "Replace Variable With Attribute minBufferSize : int to bufferSize : int in method package DumbAndroid(rate int) in class net.damsy.soupeaucaillou.tilematch.TilematchJNILib.DumbAndroid",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 306,
+		"endLine": 306,
+		"startColumn": 14,
+		"endColumn": 37,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "minBufferSize : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 302,
+		"endLine": 302,
+		"startColumn": 10,
+		"endColumn": 20,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "bufferSize : int"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "cd6d461878e1c1f230ee4851defd7d4bfa10893f",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/cd6d461878e1c1f230ee4851defd7d4bfa10893f",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter soundRef : int in method public playSound(soundID int, music boolean, soundRef int, offsetms int) : int from class net.damsy.soupeaucaillou.tilematch.TilematchJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 75,
+		"endLine": 85,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public playSound(soundID int, music boolean) : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 79,
+		"endLine": 79,
+		"startColumn": 61,
+		"endColumn": 73,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "soundRef : int"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 79,
+		"endLine": 112,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public playSound(soundID int, music boolean, soundRef int, offsetms int) : int"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter offsetms : int in method public playSound(soundID int, music boolean, soundRef int, offsetms int) : int from class net.damsy.soupeaucaillou.tilematch.TilematchJNILib",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 75,
+		"endLine": 85,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public playSound(soundID int, music boolean) : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 79,
+		"endLine": 79,
+		"startColumn": 75,
+		"endColumn": 87,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "offsetms : int"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchJNILib.java",
+		"startLine": 79,
+		"endLine": 112,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public playSound(soundID int, music boolean, soundRef int, offsetms int) : int"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "907160e9cb827ae4291e3a8727c7883b7fd648e7",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/907160e9cb827ae4291e3a8727c7883b7fd648e7",
+	"refactorings": [{
+	"type": "Extract Method",
+	"description": "Extract Method package startGameThread() : void extracted from public onSurfaceChanged(gl GL10, width int, height int) : void in class net.damsy.soupeaucaillou.tilematch.TilematchRenderer",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 45,
+		"endLine": 74,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "public onSurfaceChanged(gl GL10, width int, height int) : void"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 56,
+		"endLine": 56,
+		"startColumn": 6,
+		"endColumn": 65,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 6,
+		"endColumn": 22,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 59,
+		"endLine": 59,
+		"startColumn": 7,
+		"endColumn": 52,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 62,
+		"endLine": 62,
+		"startColumn": 6,
+		"endColumn": 70,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 65,
+		"endLine": 65,
+		"startColumn": 7,
+		"endColumn": 26,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 54,
+		"endLine": 64,
+		"startColumn": 7,
+		"endColumn": 7,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 58,
+		"endLine": 61,
+		"startColumn": 43,
+		"endColumn": 7,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 58,
+		"endLine": 61,
+		"startColumn": 6,
+		"endColumn": 7,
+		"codeElementType": "WHILE_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 55,
+		"endLine": 63,
+		"startColumn": 23,
+		"endColumn": 6,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 44,
+		"endLine": 58,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package startGameThread() : void"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 5,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 48,
+		"endLine": 48,
+		"startColumn": 5,
+		"endColumn": 21,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 50,
+		"endLine": 50,
+		"startColumn": 6,
+		"endColumn": 51,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 5,
+		"endColumn": 69,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 3,
+		"endColumn": 22,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 45,
+		"endLine": 56,
+		"startColumn": 6,
+		"endColumn": 6,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 49,
+		"endLine": 52,
+		"startColumn": 42,
+		"endColumn": 6,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 49,
+		"endLine": 52,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "WHILE_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 46,
+		"endLine": 55,
+		"startColumn": 22,
+		"endColumn": 5,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 61,
+		"endLine": 81,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "public onSurfaceChanged(gl GL10, width int, height int) : void"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 70,
+		"endLine": 70,
+		"startColumn": 7,
+		"endColumn": 24,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "startGameThread()"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchRenderer.java",
+		"startLine": 74,
+		"endLine": 74,
+		"startColumn": 8,
+		"endColumn": 25,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "startGameThread()"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "7edc31edf6c3bdf68c52294dd6a5c00c79cc7f83",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/7edc31edf6c3bdf68c52294dd6a5c00c79cc7f83",
+	"refactorings": [{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute players : List<MediaPlayer> to availablePlayers : List<MediaPlayer> in class net.damsy.soupeaucaillou.tilematch.TilematchActivity",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchActivity.java",
+		"startLine": 25,
+		"endLine": 25,
+		"startColumn": 34,
+		"endColumn": 41,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "players : List<MediaPlayer>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/TilematchActivity.java",
+		"startLine": 25,
+		"endLine": 25,
+		"startColumn": 34,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "availablePlayers : List<MediaPlayer>"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "49e96b894e7f726dcf97c34861d7481fd127a84b",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/49e96b894e7f726dcf97c34861d7481fd127a84b",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable attribs : int[] in method public chooseConfig(egl EGL10, display EGLDisplay) : EGLConfig from class net.damsy.soupeaucaillou.tilematch.GL2JNIView.ConfigChooser",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 168,
+		"endLine": 168,
+		"startColumn": 13,
+		"endColumn": 81,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 179,
+		"endLine": 179,
+		"startColumn": 13,
+		"endColumn": 93,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 168,
+		"endLine": 168,
+		"startColumn": 13,
+		"endColumn": 81,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 167,
+		"endLine": 167,
+		"startColumn": 16,
+		"endColumn": 42,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "attribs : int[]"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 177,
+		"endLine": 177,
+		"startColumn": 17,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 187,
+		"endLine": 187,
+		"startColumn": 13,
+		"endColumn": 84,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 170,
+		"endLine": 170,
+		"startColumn": 13,
+		"endColumn": 72,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/SoupeauCaillou/heriswap",
+	"sha1": "3639c3336c230509c0b685b9f70bf6c89d5c3a73",
+	"url": "https://github.com/SoupeauCaillou/heriswap/commit/3639c3336c230509c0b685b9f70bf6c89d5c3a73",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter asset : AssetManager in method private init(translucent boolean, depth int, stencil int, asset AssetManager) : void from class net.damsy.soupeaucaillou.tilematch.GL2JNIView",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 66,
+		"endLine": 90,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private init(translucent boolean, depth int, stencil int) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 66,
+		"endLine": 66,
+		"startColumn": 68,
+		"endColumn": 86,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "asset : AssetManager"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 66,
+		"endLine": 90,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private init(translucent boolean, depth int, stencil int, asset AssetManager) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter asset : AssetManager in method public Renderer(asset AssetManager) from class net.damsy.soupeaucaillou.tilematch.GL2JNIView.Renderer",
+	"leftSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 338,
+		"endLine": 340,
+		"startColumn": 6,
+		"endColumn": 7,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public Renderer()"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 339,
+		"endLine": 339,
+		"startColumn": 22,
+		"endColumn": 40,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "asset : AssetManager"
+}, {
+		"filePath": "src/net/damsy/soupeaucaillou/tilematch/GL2JNIView.java",
+		"startLine": 339,
+		"endLine": 342,
+		"startColumn": 6,
+		"endColumn": 7,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public Renderer(asset AssetManager)"
+}]
+}
+]
+}

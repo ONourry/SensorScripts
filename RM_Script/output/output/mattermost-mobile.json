@@ -1,0 +1,4413 @@
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "aaa571db32191907fe1139c9b5da131950c20357",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/aaa571db32191907fe1139c9b5da131950c20357",
+	"refactorings": [{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type map : Map to map : Map<String,Object> in method public getExportedCustomBubblingEventTypeConstants() : Map<String,Object> in class com.mattermost.rnbeta.RNPasteableTextInputManager",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/RNPasteableTextInputManager.java",
+		"startLine": 74,
+		"endLine": 74,
+		"startColumn": 13,
+		"endColumn": 51,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "map : Map"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/RNPasteableTextInputManager.java",
+		"startLine": 74,
+		"endLine": 74,
+		"startColumn": 29,
+		"endColumn": 86,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "map : Map<String,Object>"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "5f74491ea8e65f942248f634ee9ac0229e1dce8f",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/5f74491ea8e65f942248f634ee9ac0229e1dce8f",
+	"refactorings": [{
+	"type": "Replace Variable With Attribute",
+	"description": "Replace Variable With Attribute reactGateway : ReactGateway to mReactNativeHost : ReactNativeHost in method public getRunningReactContext() : ReactContext in class com.mattermost.rnbeta.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 246,
+		"endLine": 246,
+		"startColumn": 24,
+		"endColumn": 56,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "reactGateway : ReactGateway"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 57,
+		"endLine": 114,
+		"startColumn": 31,
+		"endColumn": 4,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "mReactNativeHost : ReactNativeHost"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type reactGateway : ReactGateway to mReactNativeHost : ReactNativeHost in method public getRunningReactContext() : ReactContext in class com.mattermost.rnbeta.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 246,
+		"endLine": 246,
+		"startColumn": 24,
+		"endColumn": 56,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "reactGateway : ReactGateway"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 57,
+		"endLine": 114,
+		"startColumn": 31,
+		"endColumn": 4,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "mReactNativeHost : ReactNativeHost"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "d25561bb832e619d57613e78f4cbe2b4c8951b54",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/d25561bb832e619d57613e78f4cbe2b4c8951b54",
+	"refactorings": [{
+	"type": "Extract Attribute",
+	"description": "Extract Attribute public CACHE_DIR_NAME : String in class com.mattermost.share.ShareModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 136,
+		"endLine": 136,
+		"startColumn": 13,
+		"endColumn": 82,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted attribute",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 42,
+		"endLine": 42,
+		"startColumn": 32,
+		"endColumn": 58,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public CACHE_DIR_NAME : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 138,
+		"endLine": 138,
+		"startColumn": 13,
+		"endColumn": 87,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted attribute",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "3ac0db6f61386bfcbae4d642325fb1866949ffc1",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/3ac0db6f61386bfcbae4d642325fb1866949ffc1",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter isIdLoaded : boolean in method private notificationReceiptDelivery(ackId String, postId String, type String, isIdLoaded boolean, promise ResolvePromise) : void from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 528,
+		"endLine": 530,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private notificationReceiptDelivery(ackId String, postId String, type String, promise ResolvePromise) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 531,
+		"endLine": 531,
+		"startColumn": 88,
+		"endColumn": 106,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "isIdLoaded : boolean"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 531,
+		"endLine": 533,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private notificationReceiptDelivery(ackId String, postId String, type String, isIdLoaded boolean, promise ResolvePromise) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter isIdLoaded : boolean in method public send(context Context, ackId String, postId String, type String, isIdLoaded boolean, promise ResolvePromise) : void from class com.mattermost.rnbeta.ReceiptDelivery",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 29,
+		"endLine": 56,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public send(context Context, ackId String, postId String, type String, promise ResolvePromise) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 106,
+		"endColumn": 130,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "isIdLoaded : boolean"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 29,
+		"endLine": 56,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public send(context Context, ackId String, postId String, type String, isIdLoaded boolean, promise ResolvePromise) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter isIdLoaded : boolean in method protected execute(serverUrl String, postId String, token String, ackId String, type String, isIdLoaded boolean, promise ResolvePromise) : void from class com.mattermost.rnbeta.ReceiptDelivery",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 58,
+		"endLine": 118,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected execute(serverUrl String, postId String, token String, ackId String, type String, promise ResolvePromise) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 109,
+		"endColumn": 127,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "isIdLoaded : boolean"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 58,
+		"endLine": 119,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "protected execute(serverUrl String, postId String, token String, ackId String, type String, isIdLoaded boolean, promise ResolvePromise) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "430463822bb21a661c16ae02bab6766fd05f166c",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/430463822bb21a661c16ae02bab6766fd05f166c",
+	"refactorings": [{
+	"type": "Move Attribute",
+	"description": "Move Attribute private TAG : String from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks to private TAG : String from class com.mattermost.rnbeta.MattermostManagedModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 24,
+		"endLine": 24,
+		"startColumn": 33,
+		"endColumn": 94,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private TAG : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 33,
+		"endColumn": 84,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "private TAG : String"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private restrictionsFilter : IntentFilter from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks to private restrictionsFilter : IntentFilter from class com.mattermost.rnbeta.MattermostManagedModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 26,
+		"endLine": 27,
+		"startColumn": 32,
+		"endColumn": 77,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private restrictionsFilter : IntentFilter"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 33,
+		"endLine": 34,
+		"startColumn": 32,
+		"endColumn": 77,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "private restrictionsFilter : IntentFilter"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private restrictionsReceiver : BroadcastReceiver from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks to private restrictionsReceiver : BroadcastReceiver from class com.mattermost.rnbeta.MattermostManagedModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 29,
+		"endLine": 40,
+		"startColumn": 37,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private restrictionsReceiver : BroadcastReceiver"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 36,
+		"endLine": 48,
+		"startColumn": 37,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "private restrictionsReceiver : BroadcastReceiver"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter activity : Activity in method public onActivityResumed(activity Activity) : void from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 35,
+		"endColumn": 52,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "activity : Activity"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 56,
+		"endLine": 68,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public onActivityResumed(activity Activity) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 118,
+		"endLine": 138,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public onHostResume() : void"
+}]
+},
+{
+	"type": "Move And Rename Method",
+	"description": "Move And Rename Method public onActivityResumed(activity Activity) : void from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks to public onHostResume() : void from class com.mattermost.rnbeta.MattermostManagedModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 56,
+		"endLine": 68,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public onActivityResumed(activity Activity) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 118,
+		"endLine": 138,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public onHostResume() : void"
+}]
+},
+{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter activity : Activity in method public onActivityStopped(activity Activity) : void from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 35,
+		"endColumn": 52,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "activity : Activity"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 70,
+		"endLine": 81,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public onActivityStopped(activity Activity) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 140,
+		"endLine": 152,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public onHostPause() : void"
+}]
+},
+{
+	"type": "Move And Rename Method",
+	"description": "Move And Rename Method public onActivityStopped(activity Activity) : void from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks to public onHostPause() : void from class com.mattermost.rnbeta.MattermostManagedModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 70,
+		"endLine": 81,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public onActivityStopped(activity Activity) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 140,
+		"endLine": 152,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public onHostPause() : void"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method private sendConfigChanged(config Bundle) : void from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks to private sendConfigChanged(config Bundle) : void from class com.mattermost.rnbeta.MattermostManagedModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 99,
+		"endLine": 110,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private sendConfigChanged(config Bundle) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 173,
+		"endLine": 184,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "private sendConfigChanged(config Bundle) : void"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method private equalBundles(one Bundle, two Bundle) : boolean from class com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks to private equalBundles(one Bundle, two Bundle) : boolean from class com.mattermost.rnbeta.MattermostManagedModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 112,
+		"endLine": 144,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private equalBundles(one Bundle, two Bundle) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedModule.java",
+		"startLine": 186,
+		"endLine": 222,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "private equalBundles(one Bundle, two Bundle) : boolean"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "ba76e5eac7043e67b9f03d1af5652ff730aa852b",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/ba76e5eac7043e67b9f03d1af5652ff730aa852b",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter postId : String in method private notificationReceiptDelivery(ackId String, postId String, type String, promise ResolvePromise) : void from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 496,
+		"endLine": 498,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private notificationReceiptDelivery(ackId String, type String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 521,
+		"endLine": 521,
+		"startColumn": 60,
+		"endColumn": 73,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "postId : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 521,
+		"endLine": 523,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private notificationReceiptDelivery(ackId String, postId String, type String, promise ResolvePromise) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter promise : ResolvePromise in method private notificationReceiptDelivery(ackId String, postId String, type String, promise ResolvePromise) : void from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 496,
+		"endLine": 498,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private notificationReceiptDelivery(ackId String, type String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 521,
+		"endLine": 521,
+		"startColumn": 88,
+		"endColumn": 110,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "promise : ResolvePromise"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 521,
+		"endLine": 523,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private notificationReceiptDelivery(ackId String, postId String, type String, promise ResolvePromise) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter postId : String in method public send(context Context, ackId String, postId String, type String, promise ResolvePromise) : void from class com.mattermost.rnbeta.ReceiptDelivery",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 27,
+		"endLine": 54,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public send(context Context, ackId String, type String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 66,
+		"endColumn": 85,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "postId : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 29,
+		"endLine": 56,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public send(context Context, ackId String, postId String, type String, promise ResolvePromise) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter promise : ResolvePromise in method public send(context Context, ackId String, postId String, type String, promise ResolvePromise) : void from class com.mattermost.rnbeta.ReceiptDelivery",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 27,
+		"endLine": 54,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public send(context Context, ackId String, type String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 106,
+		"endColumn": 128,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "promise : ResolvePromise"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 29,
+		"endLine": 56,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public send(context Context, ackId String, postId String, type String, promise ResolvePromise) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter postId : String in method protected execute(serverUrl String, postId String, token String, ackId String, type String, promise ResolvePromise) : void from class com.mattermost.rnbeta.ReceiptDelivery",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 56,
+		"endLine": 94,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected execute(serverUrl String, token String, ackId String, type String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 53,
+		"endColumn": 66,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "postId : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 58,
+		"endLine": 118,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "protected execute(serverUrl String, postId String, token String, ackId String, type String, promise ResolvePromise) : void"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter promise : ResolvePromise in method protected execute(serverUrl String, postId String, token String, ackId String, type String, promise ResolvePromise) : void from class com.mattermost.rnbeta.ReceiptDelivery",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 56,
+		"endLine": 94,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected execute(serverUrl String, token String, ackId String, type String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 109,
+		"endColumn": 131,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "promise : ResolvePromise"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ReceiptDelivery.java",
+		"startLine": 58,
+		"endLine": 118,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "protected execute(serverUrl String, postId String, token String, ackId String, type String, promise ResolvePromise) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "5e5d3abd79ef64c6958f5988fd4b1336bc29fc88",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/5e5d3abd79ef64c6958f5988fd4b1336bc29fc88",
+	"refactorings": [{
+	"type": "Extract Method",
+	"description": "Extract Method private addNotificationExtras(notification Notification.Builder, bundle Bundle) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 214,
+		"endLine": 214,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 216,
+		"endLine": 216,
+		"startColumn": 13,
+		"endColumn": 30,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 193,
+		"endLine": 193,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 218,
+		"endLine": 218,
+		"startColumn": 9,
+		"endColumn": 46,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 219,
+		"endLine": 219,
+		"startColumn": 9,
+		"endColumn": 35,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 215,
+		"endLine": 217,
+		"startColumn": 24,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 215,
+		"endLine": 217,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 185,
+		"endLine": 195,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private addNotificationExtras(notification Notification.Builder, bundle Bundle) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 186,
+		"endLine": 186,
+		"startColumn": 9,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 188,
+		"endLine": 188,
+		"startColumn": 13,
+		"endColumn": 43,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 191,
+		"endLine": 191,
+		"startColumn": 9,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 192,
+		"endLine": 192,
+		"startColumn": 9,
+		"endColumn": 59,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 194,
+		"endLine": 194,
+		"startColumn": 9,
+		"endColumn": 48,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 187,
+		"endLine": 189,
+		"startColumn": 37,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 187,
+		"endLine": 189,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 159,
+		"endLine": 159,
+		"startColumn": 9,
+		"endColumn": 52,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "addNotificationExtras(notification,bundle)"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable b : Bundle to userInfoBundle : Bundle in method private addNotificationExtras(notification Notification.Builder, bundle Bundle) : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 214,
+		"endLine": 214,
+		"startColumn": 16,
+		"endColumn": 48,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "b : Bundle"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 186,
+		"endLine": 186,
+		"startColumn": 16,
+		"endColumn": 61,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "userInfoBundle : Bundle"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private getSmallIconResourceId(iconName String) : int extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 257,
+		"endLine": 257,
+		"startColumn": 13,
+		"endColumn": 34,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 234,
+		"endLine": 234,
+		"startColumn": 17,
+		"endColumn": 68,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 233,
+		"endLine": 235,
+		"startColumn": 38,
+		"endColumn": 14,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 230,
+		"endLine": 236,
+		"startColumn": 34,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 224,
+		"endLine": 228,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 233,
+		"endLine": 235,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 230,
+		"endLine": 236,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 212,
+		"endLine": 229,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getSmallIconResourceId(iconName String) : int"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 221,
+		"endLine": 221,
+		"startColumn": 13,
+		"endColumn": 54,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 224,
+		"endLine": 224,
+		"startColumn": 17,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 223,
+		"endLine": 225,
+		"startColumn": 34,
+		"endColumn": 14,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 219,
+		"endLine": 226,
+		"startColumn": 30,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 213,
+		"endLine": 215,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 223,
+		"endLine": 225,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 219,
+		"endLine": 226,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 201,
+		"endLine": 201,
+		"startColumn": 30,
+		"endColumn": 63,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getSmallIconResourceId(smallIcon)"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 214,
+		"endLine": 214,
+		"startColumn": 13,
+		"endColumn": 42,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 217,
+		"endLine": 217,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 220,
+		"endLine": 220,
+		"startColumn": 13,
+		"endColumn": 38,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 228,
+		"endLine": 228,
+		"startColumn": 9,
+		"endColumn": 27,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 213,
+		"endLine": 215,
+		"startColumn": 31,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Parameterize Variable",
+	"description": "Parameterize Variable smallIcon : String to iconName : String in method private getSmallIconResourceId(iconName String) : int in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 198,
+		"endLine": 198,
+		"startColumn": 16,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "smallIcon : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 212,
+		"endLine": 212,
+		"startColumn": 40,
+		"endColumn": 55,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "iconName : String"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private getIconResourceId(iconName String) : int extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 168,
+		"endLine": 168,
+		"startColumn": 9,
+		"endColumn": 56,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 241,
+		"endLine": 241,
+		"startColumn": 13,
+		"endColumn": 86,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 321,
+		"endLine": 321,
+		"startColumn": 9,
+		"endColumn": 83,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 239,
+		"endLine": 245,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getIconResourceId(iconName String) : int"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 241,
+		"endLine": 241,
+		"startColumn": 9,
+		"endColumn": 56,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 244,
+		"endLine": 244,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 240,
+		"endLine": 240,
+		"startColumn": 9,
+		"endColumn": 55,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 217,
+		"endLine": 217,
+		"startColumn": 26,
+		"endColumn": 53,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getIconResourceId(iconName)"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 221,
+		"endLine": 221,
+		"startColumn": 26,
+		"endColumn": 53,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getIconResourceId(iconName)"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 242,
+		"endLine": 242,
+		"startColumn": 9,
+		"endColumn": 35,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Extract Variable",
+	"description": "Extract Variable defType : String in method private getIconResourceId(iconName String) : int from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 225,
+		"endLine": 225,
+		"startColumn": 13,
+		"endColumn": 82,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 227,
+		"endLine": 227,
+		"startColumn": 13,
+		"endColumn": 90,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 231,
+		"endLine": 231,
+		"startColumn": 13,
+		"endColumn": 86,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 239,
+		"endLine": 239,
+		"startColumn": 13,
+		"endColumn": 82,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 241,
+		"endLine": 241,
+		"startColumn": 13,
+		"endColumn": 86,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 242,
+		"endLine": 242,
+		"startColumn": 16,
+		"endColumn": 34,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "defType : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 244,
+		"endLine": 244,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 244,
+		"endLine": 244,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 244,
+		"endLine": 244,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 244,
+		"endLine": 244,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 244,
+		"endLine": 244,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private setNotificationIcons(notification Notification.Builder, bundle Bundle) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 198,
+		"endLine": 198,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 199,
+		"endLine": 199,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 167,
+		"endLine": 167,
+		"startColumn": 9,
+		"endColumn": 55,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 352,
+		"endLine": 352,
+		"startColumn": 9,
+		"endColumn": 84,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 354,
+		"endLine": 354,
+		"startColumn": 13,
+		"endColumn": 56,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 353,
+		"endLine": 355,
+		"startColumn": 114,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 353,
+		"endLine": 355,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 197,
+		"endLine": 210,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setNotificationIcons(notification Notification.Builder, bundle Bundle) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 198,
+		"endLine": 198,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 199,
+		"endLine": 199,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 205,
+		"endLine": 205,
+		"startColumn": 9,
+		"endColumn": 55,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 206,
+		"endLine": 206,
+		"startColumn": 9,
+		"endColumn": 84,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 208,
+		"endLine": 208,
+		"startColumn": 13,
+		"endColumn": 56,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 207,
+		"endLine": 209,
+		"startColumn": 120,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 207,
+		"endLine": 209,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 160,
+		"endLine": 160,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "setNotificationIcons(notification,bundle)"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 201,
+		"endLine": 201,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 202,
+		"endLine": 202,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 204,
+		"endLine": 204,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private setNotificationNumber(notification Notification.Builder, channelId String) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 206,
+		"endLine": 206,
+		"startColumn": 13,
+		"endColumn": 47,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 247,
+		"endLine": 247,
+		"startColumn": 13,
+		"endColumn": 48,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 276,
+		"endLine": 276,
+		"startColumn": 9,
+		"endColumn": 75,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 205,
+		"endLine": 207,
+		"startColumn": 16,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 247,
+		"endLine": 254,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setNotificationNumber(notification Notification.Builder, channelId String) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 251,
+		"endLine": 251,
+		"startColumn": 13,
+		"endColumn": 40,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 253,
+		"endLine": 253,
+		"startColumn": 9,
+		"endColumn": 40,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 249,
+		"endLine": 249,
+		"startColumn": 9,
+		"endColumn": 71,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 250,
+		"endLine": 252,
+		"startColumn": 31,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 172,
+		"endLine": 172,
+		"startColumn": 9,
+		"endColumn": 55,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "setNotificationNumber(notification,channelId)"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 248,
+		"endLine": 248,
+		"startColumn": 9,
+		"endColumn": 28,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 250,
+		"endLine": 252,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type bundleArray : List<Bundle> to objCount : Object in method private setNotificationNumber(notification Notification.Builder, channelId String) : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 276,
+		"endLine": 276,
+		"startColumn": 22,
+		"endColumn": 74,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "bundleArray : List<Bundle>"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 249,
+		"endLine": 249,
+		"startColumn": 16,
+		"endColumn": 70,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "objCount : Object"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable bundleArray : List<Bundle> to objCount : Object in method private setNotificationNumber(notification Notification.Builder, channelId String) : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 276,
+		"endLine": 276,
+		"startColumn": 22,
+		"endColumn": 74,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "bundleArray : List<Bundle>"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 249,
+		"endLine": 249,
+		"startColumn": 16,
+		"endColumn": 70,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "objCount : Object"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private setNotificationChannel(notification Notification.Builder, bundle Bundle) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 231,
+		"endLine": 231,
+		"startColumn": 13,
+		"endColumn": 86,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 204,
+		"endLine": 204,
+		"startColumn": 13,
+		"endColumn": 33,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 293,
+		"endLine": 293,
+		"startColumn": 17,
+		"endColumn": 93,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 186,
+		"endLine": 186,
+		"startColumn": 13,
+		"endColumn": 51,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 203,
+		"endLine": 205,
+		"startColumn": 54,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 286,
+		"endLine": 305,
+		"startColumn": 46,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 175,
+		"endLine": 187,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 292,
+		"endLine": 294,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 355,
+		"endLine": 374,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setNotificationChannel(notification Notification.Builder, bundle Bundle) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 361,
+		"endLine": 361,
+		"startColumn": 9,
+		"endColumn": 74,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 366,
+		"endLine": 366,
+		"startColumn": 13,
+		"endColumn": 80,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 370,
+		"endLine": 370,
+		"startColumn": 13,
+		"endColumn": 57,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 373,
+		"endLine": 373,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 365,
+		"endLine": 367,
+		"startColumn": 37,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 369,
+		"endLine": 371,
+		"startColumn": 79,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 357,
+		"endLine": 359,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 369,
+		"endLine": 371,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 162,
+		"endLine": 162,
+		"startColumn": 9,
+		"endColumn": 53,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "setNotificationChannel(notification,bundle)"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 358,
+		"endLine": 358,
+		"startColumn": 13,
+		"endColumn": 20,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 363,
+		"endLine": 363,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 364,
+		"endLine": 364,
+		"startColumn": 9,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 357,
+		"endLine": 359,
+		"startColumn": 60,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 365,
+		"endLine": 367,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type title : String to localPushNotificationTest : boolean in method private setNotificationChannel(notification Notification.Builder, bundle Bundle) : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 202,
+		"endLine": 202,
+		"startColumn": 16,
+		"endColumn": 28,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "title : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 363,
+		"endLine": 363,
+		"startColumn": 17,
+		"endColumn": 50,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "localPushNotificationTest : boolean"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable title : String to localPushNotificationTest : boolean in method private setNotificationChannel(notification Notification.Builder, bundle Bundle) : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 202,
+		"endLine": 202,
+		"startColumn": 16,
+		"endColumn": 28,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "title : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 363,
+		"endLine": 363,
+		"startColumn": 17,
+		"endColumn": 50,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "localPushNotificationTest : boolean"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private setNotificationBadgeIconType(notification Notification.Builder) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 317,
+		"endLine": 317,
+		"startColumn": 13,
+		"endColumn": 74,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 316,
+		"endLine": 318,
+		"startColumn": 61,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 316,
+		"endLine": 318,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 376,
+		"endLine": 380,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setNotificationBadgeIconType(notification Notification.Builder) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 378,
+		"endLine": 378,
+		"startColumn": 13,
+		"endColumn": 74,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 377,
+		"endLine": 379,
+		"startColumn": 61,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 377,
+		"endLine": 379,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 163,
+		"endLine": 163,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "setNotificationBadgeIconType(notification)"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private setNotificationSound(notification Notification.Builder, notificationPreferences NotificationPreferences) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 357,
+		"endLine": 357,
+		"startColumn": 9,
+		"endColumn": 74,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 360,
+		"endLine": 360,
+		"startColumn": 17,
+		"endColumn": 94,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 363,
+		"endLine": 363,
+		"startColumn": 13,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 364,
+		"endLine": 364,
+		"startColumn": 13,
+		"endColumn": 81,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 359,
+		"endLine": 361,
+		"startColumn": 37,
+		"endColumn": 14,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 359,
+		"endLine": 361,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 358,
+		"endLine": 362,
+		"startColumn": 31,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 362,
+		"endLine": 365,
+		"startColumn": 16,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 358,
+		"endLine": 365,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 390,
+		"endLine": 400,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setNotificationSound(notification Notification.Builder, notificationPreferences NotificationPreferences) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 391,
+		"endLine": 391,
+		"startColumn": 9,
+		"endColumn": 74,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 394,
+		"endLine": 394,
+		"startColumn": 17,
+		"endColumn": 94,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 397,
+		"endLine": 397,
+		"startColumn": 13,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 398,
+		"endLine": 398,
+		"startColumn": 13,
+		"endColumn": 81,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 393,
+		"endLine": 395,
+		"startColumn": 37,
+		"endColumn": 14,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 393,
+		"endLine": 395,
+		"startColumn": 13,
+		"endColumn": 14,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 392,
+		"endLine": 396,
+		"startColumn": 31,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 396,
+		"endLine": 399,
+		"startColumn": 16,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 392,
+		"endLine": 399,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 166,
+		"endLine": 166,
+		"startColumn": 9,
+		"endColumn": 68,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "setNotificationSound(notification,notificationPreferences)"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private setNotificationVibrate(notification Notification.Builder, notificationPreferences NotificationPreferences) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 367,
+		"endLine": 367,
+		"startColumn": 9,
+		"endColumn": 70,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 370,
+		"endLine": 370,
+		"startColumn": 13,
+		"endColumn": 68,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 368,
+		"endLine": 371,
+		"startColumn": 22,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 368,
+		"endLine": 371,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 402,
+		"endLine": 408,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setNotificationVibrate(notification Notification.Builder, notificationPreferences NotificationPreferences) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 403,
+		"endLine": 403,
+		"startColumn": 9,
+		"endColumn": 70,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 406,
+		"endLine": 406,
+		"startColumn": 13,
+		"endColumn": 68,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 404,
+		"endLine": 407,
+		"startColumn": 22,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 404,
+		"endLine": 407,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 167,
+		"endLine": 167,
+		"startColumn": 9,
+		"endColumn": 70,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "setNotificationVibrate(notification,notificationPreferences)"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private setNotificationBlink(notification Notification.Builder, notificationPreferences NotificationPreferences) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 373,
+		"endLine": 373,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 375,
+		"endLine": 375,
+		"startColumn": 13,
+		"endColumn": 58,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 374,
+		"endLine": 376,
+		"startColumn": 20,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 374,
+		"endLine": 376,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 410,
+		"endLine": 415,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setNotificationBlink(notification Notification.Builder, notificationPreferences NotificationPreferences) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 411,
+		"endLine": 411,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 413,
+		"endLine": 413,
+		"startColumn": 13,
+		"endColumn": 58,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 412,
+		"endLine": 414,
+		"startColumn": 20,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 412,
+		"endLine": 414,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 168,
+		"endLine": 168,
+		"startColumn": 9,
+		"endColumn": 68,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "setNotificationBlink(notification,notificationPreferences)"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private setNotificationDeleteIntent(notification Notification.Builder, notificationId int) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 321,
+		"endLine": 321,
+		"startColumn": 9,
+		"endColumn": 83,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 322,
+		"endLine": 322,
+		"startColumn": 9,
+		"endColumn": 61,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 323,
+		"endLine": 323,
+		"startColumn": 9,
+		"endColumn": 137,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 324,
+		"endLine": 324,
+		"startColumn": 9,
+		"endColumn": 52,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 417,
+		"endLine": 423,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setNotificationDeleteIntent(notification Notification.Builder, notificationId int) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 419,
+		"endLine": 419,
+		"startColumn": 9,
+		"endColumn": 83,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 420,
+		"endLine": 420,
+		"startColumn": 9,
+		"endColumn": 61,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 421,
+		"endLine": 421,
+		"startColumn": 9,
+		"endColumn": 137,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 422,
+		"endLine": 422,
+		"startColumn": 9,
+		"endColumn": 52,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 173,
+		"endLine": 173,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "setNotificationDeleteIntent(notification,notificationId)"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method private addNotificationReplyAction(notification Notification.Builder, notificationId int, bundle Bundle) : void extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 165,
+		"endLine": 379,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 196,
+		"endLine": 196,
+		"startColumn": 9,
+		"endColumn": 53,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 331,
+		"endLine": 331,
+		"startColumn": 13,
+		"endColumn": 97,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 332,
+		"endLine": 332,
+		"startColumn": 13,
+		"endColumn": 51,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 333,
+		"endLine": 333,
+		"startColumn": 13,
+		"endColumn": 67,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 334,
+		"endLine": 334,
+		"startColumn": 13,
+		"endColumn": 62,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 335,
+		"endLine": 335,
+		"startColumn": 13,
+		"endColumn": 149,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 337,
+		"endLine": 339,
+		"startColumn": 13,
+		"endColumn": 30,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 347,
+		"endLine": 349,
+		"startColumn": 13,
+		"endColumn": 45,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 227,
+		"endLine": 227,
+		"startColumn": 13,
+		"endColumn": 90,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 341,
+		"endLine": 345,
+		"startColumn": 13,
+		"endColumn": 30,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 425,
+		"endLine": 456,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private addNotificationReplyAction(notification Notification.Builder, notificationId int, bundle Bundle) : void"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 426,
+		"endLine": 426,
+		"startColumn": 9,
+		"endColumn": 53,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 431,
+		"endLine": 431,
+		"startColumn": 9,
+		"endColumn": 93,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 432,
+		"endLine": 432,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 433,
+		"endLine": 433,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 434,
+		"endLine": 434,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 436,
+		"endLine": 440,
+		"startColumn": 9,
+		"endColumn": 48,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 442,
+		"endLine": 444,
+		"startColumn": 9,
+		"endColumn": 22,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 453,
+		"endLine": 455,
+		"startColumn": 9,
+		"endColumn": 37,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 446,
+		"endLine": 446,
+		"startColumn": 9,
+		"endColumn": 53,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 448,
+		"endLine": 451,
+		"startColumn": 9,
+		"endColumn": 22,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 152,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 174,
+		"endLine": 174,
+		"startColumn": 9,
+		"endColumn": 73,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "addNotificationReplyAction(notification,notificationId,bundle)"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 428,
+		"endLine": 428,
+		"startColumn": 13,
+		"endColumn": 20,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 447,
+		"endLine": 447,
+		"startColumn": 9,
+		"endColumn": 38,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 427,
+		"endLine": 429,
+		"startColumn": 78,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 427,
+		"endLine": 429,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable smallIconResId : int to icon : int in method private addNotificationReplyAction(notification Notification.Builder, notificationId int, bundle Bundle) : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 221,
+		"endLine": 221,
+		"startColumn": 13,
+		"endColumn": 27,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "smallIconResId : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 446,
+		"endLine": 446,
+		"startColumn": 13,
+		"endColumn": 52,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "icon : int"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable numberString : String to badge : String in method private cancelNotification(data Bundle, notificationId int) : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 396,
+		"endLine": 396,
+		"startColumn": 22,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "numberString : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 464,
+		"endLine": 464,
+		"startColumn": 22,
+		"endColumn": 53,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "badge : String"
+}]
+},
+{
+	"type": "Merge Parameter",
+	"description": "Merge Parameter [senderName : String, channelName : String, message : String] to bundle : Bundle in method private getSenderName(bundle Bundle) : String in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 404,
+		"endLine": 404,
+		"startColumn": 34,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "merged variable declaration",
+		"codeElement": "senderName : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 404,
+		"endLine": 404,
+		"startColumn": 53,
+		"endColumn": 71,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "merged variable declaration",
+		"codeElement": "channelName : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 404,
+		"endLine": 404,
+		"startColumn": 73,
+		"endColumn": 87,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "merged variable declaration",
+		"codeElement": "message : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 470,
+		"endLine": 470,
+		"startColumn": 34,
+		"endColumn": 47,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "new variable declaration",
+		"codeElement": "bundle : Bundle"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "ed2054592b6b3be0d527dfcd4c3282096c78fa05",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/ed2054592b6b3be0d527dfcd4c3282096c78fa05",
+	"refactorings": [{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type channelIdToNotificationCount : LinkedHashMap<String,Integer> to channelIdToNotificationCount : Map<String,Integer> in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 50,
+		"endColumn": 116,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "channelIdToNotificationCount : LinkedHashMap<String,Integer>"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 52,
+		"endLine": 52,
+		"startColumn": 41,
+		"endColumn": 102,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "channelIdToNotificationCount : Map<String,Integer>"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type channelIdToNotification : LinkedHashMap<String,List<Bundle>> to channelIdToNotification : Map<String,List<Bundle>> in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 48,
+		"endLine": 48,
+		"startColumn": 55,
+		"endColumn": 121,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "channelIdToNotification : LinkedHashMap<String,List<Bundle>>"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 46,
+		"endColumn": 107,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "channelIdToNotification : Map<String,List<Bundle>>"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable numberString : String to badgeString : String in method private cancelNotification(data Bundle, notificationId int) : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 396,
+		"endLine": 396,
+		"startColumn": 22,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "numberString : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 398,
+		"endLine": 398,
+		"startColumn": 22,
+		"endColumn": 59,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "badgeString : String"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "cbe0c719ac82705aade331aa713899734ef9b7a2",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/cbe0c719ac82705aade331aa713899734ef9b7a2",
+	"refactorings": [{
+	"type": "Rename Class",
+	"description": "Rename Class com.mattermost.rnbeta.NotificationsLifecycleFacade renamed to com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 30,
+		"endLine": 251,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.rnbeta.NotificationsLifecycleFacade"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/ManagedActivityLifecycleCallbacks.java",
+		"startLine": 22,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "renamed type declaration",
+		"codeElement": "com.mattermost.rnbeta.ManagedActivityLifecycleCallbacks"
+}]
+},
+{
+	"type": "Change Return Type",
+	"description": "Change Return Type void to Bundle in method public loadManagedConfig(ctx Context) : Bundle in class com.mattermost.rnbeta.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 183,
+		"endLine": 183,
+		"startColumn": 25,
+		"endColumn": 29,
+		"codeElementType": "TYPE",
+		"description": "original return type",
+		"codeElement": "void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 177,
+		"endLine": 177,
+		"startColumn": 23,
+		"endColumn": 29,
+		"codeElementType": "TYPE",
+		"description": "changed return type",
+		"codeElement": "Bundle"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type ctx : ReactContext to ctx : Context in method public loadManagedConfig(ctx Context) : Bundle in class com.mattermost.rnbeta.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 183,
+		"endLine": 183,
+		"startColumn": 48,
+		"endColumn": 64,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "ctx : ReactContext"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 177,
+		"endLine": 177,
+		"startColumn": 48,
+		"endColumn": 59,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "ctx : Context"
+}]
+},
+{
+	"type": "Move And Rename Method",
+	"description": "Move And Rename Method public LoadManagedConfig(ctx ReactContext) : void from class com.mattermost.rnbeta.NotificationsLifecycleFacade to public loadManagedConfig(ctx Context) : Bundle from class com.mattermost.rnbeta.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 183,
+		"endLine": 192,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public LoadManagedConfig(ctx ReactContext) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 177,
+		"endLine": 193,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public loadManagedConfig(ctx Context) : Bundle"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method public getManagedConfig() : Bundle from class com.mattermost.rnbeta.NotificationsLifecycleFacade to public getManagedConfig() : Bundle from class com.mattermost.rnbeta.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 194,
+		"endLine": 207,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getManagedConfig() : Bundle"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 195,
+		"endLine": 207,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public getManagedConfig() : Bundle"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "fee9a96a117456580c06aa01417bd5d62d1b2453",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/fee9a96a117456580c06aa01417bd5d62d1b2453",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter senderName : String in method private getSenderName(senderName String, channelName String, message String) : String from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 361,
+		"endLine": 372,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getSenderName(channelName String, message String) : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 363,
+		"endLine": 363,
+		"startColumn": 34,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "senderName : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 363,
+		"endLine": 376,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private getSenderName(senderName String, channelName String, message String) : String"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter senderName : String in method private removeSenderFromMessage(senderName String, channelName String, message String) : String from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 374,
+		"endLine": 377,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private removeSenderFromMessage(message String) : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 378,
+		"endLine": 378,
+		"startColumn": 44,
+		"endColumn": 61,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "senderName : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 378,
+		"endLine": 381,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private removeSenderFromMessage(senderName String, channelName String, message String) : String"
+}]
+},
+{
+	"type": "Add Parameter",
+	"description": "Add Parameter channelName : String in method private removeSenderFromMessage(senderName String, channelName String, message String) : String from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 374,
+		"endLine": 377,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private removeSenderFromMessage(message String) : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 378,
+		"endLine": 378,
+		"startColumn": 63,
+		"endColumn": 81,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "channelName : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 378,
+		"endLine": 381,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private removeSenderFromMessage(senderName String, channelName String, message String) : String"
+}]
+},
+{
+	"type": "Extract Variable",
+	"description": "Extract Variable channelName : String in method protected getNotificationBuilder(intent PendingIntent) : Notification.Builder from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 185,
+		"endLine": 185,
+		"startColumn": 13,
+		"endColumn": 54,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 181,
+		"endLine": 181,
+		"startColumn": 16,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "channelName : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 187,
+		"endLine": 187,
+		"startColumn": 13,
+		"endColumn": 33,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "fab556c4eb2f8c3dc5f63ca9dd24e333fa0d13a9",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/fab556c4eb2f8c3dc5f63ca9dd24e333fa0d13a9",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable currentActivity : Activity in method public close(data ReadableMap) : void from class com.mattermost.share.ShareModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 78,
+		"endLine": 78,
+		"startColumn": 9,
+		"endColumn": 39,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 78,
+		"endLine": 78,
+		"startColumn": 18,
+		"endColumn": 56,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "currentActivity : Activity"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 80,
+		"endLine": 80,
+		"startColumn": 13,
+		"endColumn": 38,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "6aaaaef09cd4fffaa90b602e872651c975b28543",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/6aaaaef09cd4fffaa90b602e872651c975b28543",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable senderName : String in method private getSenderName(channelName String, message String) : String from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 366,
+		"endLine": 366,
+		"startColumn": 9,
+		"endColumn": 38,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 366,
+		"endLine": 366,
+		"startColumn": 16,
+		"endColumn": 50,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "senderName : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 368,
+		"endLine": 368,
+		"startColumn": 13,
+		"endColumn": 31,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "1777a4f7504271fccf123e50589a5edc6ffb8ea3",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/1777a4f7504271fccf123e50589a5edc6ffb8ea3",
+	"refactorings": [{
+	"type": "Rename Variable",
+	"description": "Rename Variable numberString : String to badge : String in method protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 191,
+		"endLine": 191,
+		"startColumn": 16,
+		"endColumn": 56,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "numberString : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 197,
+		"endLine": 197,
+		"startColumn": 16,
+		"endColumn": 49,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "badge : String"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "07f88071c6af2bfc3dd0934f22e371b3e9d3f4a7",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/07f88071c6af2bfc3dd0934f22e371b3e9d3f4a7",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter activity : Activity in method public clearHostOnActivityDestroy(activity Activity) : boolean from class com.mattermost.rnbeta.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 98,
+		"endLine": 103,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public clearHostOnActivityDestroy() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 100,
+		"endLine": 100,
+		"startColumn": 45,
+		"endColumn": 62,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "activity : Activity"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 99,
+		"endLine": 104,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public clearHostOnActivityDestroy(activity Activity) : boolean"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "3cee7b310ee34a7d70766d96f05fe6c416bd830b",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/3cee7b310ee34a7d70766d96f05fe6c416bd830b",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable type : String in method public processIntent() : WritableArray from class com.mattermost.share.ShareModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 159,
+		"endLine": 159,
+		"startColumn": 21,
+		"endColumn": 98,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 127,
+		"endLine": 127,
+		"startColumn": 16,
+		"endColumn": 25,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "type : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 174,
+		"endLine": 174,
+		"startColumn": 21,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "64baa640576923713ae444eae3d010ea5cf55eb1",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/64baa640576923713ae444eae3d010ea5cf55eb1",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class com.mattermost.rnbeta.react_native_interface.AsyncStorageHelper moved to com.mattermost.react_native_interface.AsyncStorageHelper",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/react_native_interface/AsyncStorageHelper.java",
+		"startLine": 14,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.rnbeta.react_native_interface.AsyncStorageHelper"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/react_native_interface/AsyncStorageHelper.java",
+		"startLine": 14,
+		"endLine": 93,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.mattermost.react_native_interface.AsyncStorageHelper"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.mattermost.rnbeta.react_native_interface.KeysReadableArray moved to com.mattermost.react_native_interface.KeysReadableArray",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/react_native_interface/KeysReadableArray.java",
+		"startLine": 10,
+		"endLine": 68,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.rnbeta.react_native_interface.KeysReadableArray"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/react_native_interface/KeysReadableArray.java",
+		"startLine": 10,
+		"endLine": 68,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.mattermost.react_native_interface.KeysReadableArray"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.mattermost.rnbeta.react_native_interface.ResolvePromise moved to com.mattermost.react_native_interface.ResolvePromise",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/react_native_interface/ResolvePromise.java",
+		"startLine": 5,
+		"endLine": 38,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.rnbeta.react_native_interface.ResolvePromise"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/react_native_interface/ResolvePromise.java",
+		"startLine": 5,
+		"endLine": 38,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.mattermost.react_native_interface.ResolvePromise"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "e8712f9199b8f8e337adae3391fd354f9ef83e85",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/e8712f9199b8f8e337adae3391fd354f9ef83e85",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter application : MainApplication in method public ShareModule(application MainApplication, reactContext ReactApplicationContext) from class com.mattermost.share.ShareModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 40,
+		"endLine": 42,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public ShareModule(reactContext ReactApplicationContext)"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 24,
+		"endColumn": 51,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "application : MainApplication"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/share/ShareModule.java",
+		"startLine": 43,
+		"endLine": 46,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public ShareModule(application MainApplication, reactContext ReactApplicationContext)"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "23ca49052524f4bdc856d70eac1388109095a165",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/23ca49052524f4bdc856d70eac1388109095a165",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder  to native_modules",
+	"leftSideLocations": [{
+		"filePath": "ImagePickerModule.java",
+		"startLine": 58,
+		"endLine": 729,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.imagepicker.ImagePickerModule"
+}],
+	"rightSideLocations": [{
+		"filePath": "native_modules/ImagePickerModule.java",
+		"startLine": 58,
+		"endLine": 729,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.imagepicker.ImagePickerModule"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "cd80cdfdf442a538d33fffd2a1d830832689d09d",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/cd80cdfdf442a538d33fffd2a1d830832689d09d",
+	"refactorings": [{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter activity : Activity to ctx : ReactContext in method public LoadManagedConfig(ctx ReactContext) : void in class com.mattermost.rnbeta.NotificationsLifecycleFacade",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 177,
+		"endLine": 177,
+		"startColumn": 48,
+		"endColumn": 65,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "activity : Activity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 178,
+		"endLine": 178,
+		"startColumn": 48,
+		"endColumn": 64,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "ctx : ReactContext"
+}]
+},
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type activity : Activity to ctx : ReactContext in method public LoadManagedConfig(ctx ReactContext) : void in class com.mattermost.rnbeta.NotificationsLifecycleFacade",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 177,
+		"endLine": 177,
+		"startColumn": 48,
+		"endColumn": 65,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "activity : Activity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 178,
+		"endLine": 178,
+		"startColumn": 48,
+		"endColumn": 64,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "ctx : ReactContext"
+}]
+},
+{
+	"type": "Extract Variable",
+	"description": "Extract Variable ctx : ReactContext in method public sendConfigChanged(config Bundle) : void from class com.mattermost.rnbeta.NotificationsLifecycleFacade",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 201,
+		"endLine": 203,
+		"startColumn": 9,
+		"endColumn": 56,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 206,
+		"endLine": 206,
+		"startColumn": 22,
+		"endColumn": 52,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "ctx : ReactContext"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 208,
+		"endLine": 209,
+		"startColumn": 13,
+		"endColumn": 60,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "30863ef42bd0fc3d0cc26d4f5022cbdf9bc9e8a7",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/30863ef42bd0fc3d0cc26d4f5022cbdf9bc9e8a7",
+	"refactorings": [{
+	"type": "Extract Variable",
+	"description": "Extract Variable bundleArray : List<Bundle> in method protected getNotificationBuilder(intent PendingIntent) : Notification.Builder from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 213,
+		"endLine": 213,
+		"startColumn": 13,
+		"endColumn": 95,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "statement with the initializer of the extracted variable",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 213,
+		"endLine": 213,
+		"startColumn": 26,
+		"endColumn": 78,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted variable declaration",
+		"codeElement": "bundleArray : List<Bundle>"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 216,
+		"endLine": 216,
+		"startColumn": 17,
+		"endColumn": 59,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "statement with the name of the extracted variable",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "6b103faa3b8e0d40af9d9dc82bee2e72d06f36b1",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/6b103faa3b8e0d40af9d9dc82bee2e72d06f36b1",
+	"refactorings": [{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type channelIdToNotification : LinkedHashMap<String,ArrayList<Bundle>> to channelIdToNotification : LinkedHashMap<String,List<Bundle>> in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 43,
+		"endLine": 43,
+		"startColumn": 60,
+		"endColumn": 131,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "channelIdToNotification : LinkedHashMap<String,ArrayList<Bundle>>"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 55,
+		"endColumn": 121,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "channelIdToNotification : LinkedHashMap<String,List<Bundle>>"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type list : ArrayList to list : List in method public onReceived() : void in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 23,
+		"endColumn": 34,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "list : ArrayList"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 79,
+		"endLine": 79,
+		"startColumn": 18,
+		"endColumn": 29,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "list : List"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "ea4fc49d818104f9e050976739c90ab325c1df9a",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/ea4fc49d818104f9e050976739c90ab325c1df9a",
+	"refactorings": [{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter vibrate : boolean to blink : boolean in method public setShouldBlink(blink boolean) : void in class com.mattermost.rnbeta.NotificationPreferencesModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 113,
+		"endLine": 113,
+		"startColumn": 32,
+		"endColumn": 47,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "vibrate : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 103,
+		"endLine": 103,
+		"startColumn": 32,
+		"endColumn": 45,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "blink : boolean"
+}]
+},
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute mSharedPreferences : SharedPreferences to mNotificationPreference : NotificationPreferences in class com.mattermost.rnbeta.NotificationPreferencesModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 25,
+		"endLine": 25,
+		"startColumn": 31,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "mSharedPreferences : SharedPreferences"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 24,
+		"endLine": 24,
+		"startColumn": 37,
+		"endColumn": 60,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "mNotificationPreference : NotificationPreferences"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type mSharedPreferences : SharedPreferences to mNotificationPreference : NotificationPreferences in class com.mattermost.rnbeta.NotificationPreferencesModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 25,
+		"endLine": 25,
+		"startColumn": 31,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "mSharedPreferences : SharedPreferences"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 24,
+		"endLine": 24,
+		"startColumn": 37,
+		"endColumn": 60,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "mNotificationPreference : NotificationPreferences"
+}]
+},
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.mattermost.rnbeta.NotificationPreferences from class com.mattermost.rnbeta.NotificationPreferencesModule",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 22,
+		"endLine": 130,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.rnbeta.NotificationPreferencesModule"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 6,
+		"endLine": 57,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.mattermost.rnbeta.NotificationPreferences"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method public getNotificationSound() : String from class com.mattermost.rnbeta.NotificationPreferencesModule to public getNotificationSound() : String from class com.mattermost.rnbeta.NotificationPreferences",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 119,
+		"endLine": 121,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getNotificationSound() : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 28,
+		"endLine": 30,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public getNotificationSound() : String"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method public getShouldVibrate() : boolean from class com.mattermost.rnbeta.NotificationPreferencesModule to public getShouldVibrate() : boolean from class com.mattermost.rnbeta.NotificationPreferences",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 123,
+		"endLine": 125,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getShouldVibrate() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 32,
+		"endLine": 34,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public getShouldVibrate() : boolean"
+}]
+},
+{
+	"type": "Move Method",
+	"description": "Move Method public getShouldBlink() : boolean from class com.mattermost.rnbeta.NotificationPreferencesModule to public getShouldBlink() : boolean from class com.mattermost.rnbeta.NotificationPreferences",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 127,
+		"endLine": 129,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getShouldBlink() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 36,
+		"endLine": 38,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "public getShouldBlink() : boolean"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private SHARED_NAME : String from class com.mattermost.rnbeta.NotificationPreferencesModule to public SHARED_NAME : String from class com.mattermost.rnbeta.NotificationPreferences",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 27,
+		"endLine": 27,
+		"startColumn": 26,
+		"endColumn": 65,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private SHARED_NAME : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 9,
+		"endLine": 9,
+		"startColumn": 25,
+		"endColumn": 64,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "public SHARED_NAME : String"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private SOUND_PREF : String from class com.mattermost.rnbeta.NotificationPreferencesModule to public SOUND_PREF : String from class com.mattermost.rnbeta.NotificationPreferences",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 28,
+		"endLine": 28,
+		"startColumn": 26,
+		"endColumn": 58,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private SOUND_PREF : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 25,
+		"endColumn": 57,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "public SOUND_PREF : String"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private VIBRATE_PREF : String from class com.mattermost.rnbeta.NotificationPreferencesModule to public VIBRATE_PREF : String from class com.mattermost.rnbeta.NotificationPreferences",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 26,
+		"endColumn": 62,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private VIBRATE_PREF : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 11,
+		"endLine": 11,
+		"startColumn": 25,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "public VIBRATE_PREF : String"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private BLINK_PREF : String from class com.mattermost.rnbeta.NotificationPreferencesModule to public BLINK_PREF : String from class com.mattermost.rnbeta.NotificationPreferences",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 30,
+		"endLine": 30,
+		"startColumn": 26,
+		"endColumn": 59,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private BLINK_PREF : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 12,
+		"endLine": 12,
+		"startColumn": 25,
+		"endColumn": 58,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "public BLINK_PREF : String"
+}]
+},
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private mSharedPreferences : SharedPreferences from class com.mattermost.rnbeta.NotificationPreferencesModule to private mSharedPreferences : SharedPreferences from class com.mattermost.rnbeta.NotificationPreferences",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferencesModule.java",
+		"startLine": 25,
+		"endLine": 25,
+		"startColumn": 31,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private mSharedPreferences : SharedPreferences"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationPreferences.java",
+		"startLine": 14,
+		"endLine": 14,
+		"startColumn": 31,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "private mSharedPreferences : SharedPreferences"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "e0cfefcdffcc7b34e01ed37e59fd085fffaf4f45",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/e0cfefcdffcc7b34e01ed37e59fd085fffaf4f45",
+	"refactorings": [{
+	"type": "Rename Class",
+	"description": "Rename Class com.mattermost.rnbeta.MattermostManagedPackage renamed to com.mattermost.rnbeta.MattermostPackage",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostManagedPackage.java",
+		"startLine": 13,
+		"endLine": 28,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.rnbeta.MattermostManagedPackage"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MattermostPackage.java",
+		"startLine": 13,
+		"endLine": 37,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "renamed type declaration",
+		"codeElement": "com.mattermost.rnbeta.MattermostPackage"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "60087e6b4d2552d08fb2640ceda26723f00c151f",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/60087e6b4d2552d08fb2640ceda26723f00c151f",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter channelId : String in method public clearNotification(notificationId int, channelId String) : void from class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 37,
+		"endLine": 43,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public clearNotification(notificationId int) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 62,
+		"endColumn": 78,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "channelId : String"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 46,
+		"endLine": 53,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "public clearNotification(notificationId int, channelId String) : void"
+}]
+},
+{
+	"type": "Extract Method",
+	"description": "Extract Method public getMessageCountInChannel(channelId String) : Integer extracted from protected getNotificationBuilder(intent PendingIntent) : Notification.Builder in class com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 97,
+		"endLine": 199,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 71,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 13,
+		"endColumn": 45,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 148,
+		"endLine": 150,
+		"startColumn": 31,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 148,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 233,
+		"endLine": 240,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getMessageCountInChannel(channelId String) : Integer"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 234,
+		"endLine": 234,
+		"startColumn": 9,
+		"endColumn": 71,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 236,
+		"endLine": 236,
+		"startColumn": 13,
+		"endColumn": 38,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 235,
+		"endLine": 237,
+		"startColumn": 31,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 235,
+		"endLine": 237,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "IF_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 107,
+		"endLine": 227,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected getNotificationBuilder(intent PendingIntent) : Notification.Builder"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 157,
+		"endLine": 157,
+		"startColumn": 27,
+		"endColumn": 62,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getMessageCountInChannel(channelId)"
+}, {
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 239,
+		"endLine": 239,
+		"startColumn": 9,
+		"endColumn": 18,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/mattermost/mattermost-mobile",
+	"sha1": "8afd7fe1cda5a1dbb8616116498fed091f1dd4c5",
+	"url": "https://github.com/mattermost/mattermost-mobile/commit/8afd7fe1cda5a1dbb8616116498fed091f1dd4c5",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class com.mattermost.CustomPushNotification moved to com.mattermost.rnbeta.CustomPushNotification",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/CustomPushNotification.java",
+		"startLine": 23,
+		"endLine": 164,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.CustomPushNotification"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/CustomPushNotification.java",
+		"startLine": 23,
+		"endLine": 164,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.mattermost.rnbeta.CustomPushNotification"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.mattermost.MainActivity moved to com.mattermost.rnbeta.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/MainActivity.java",
+		"startLine": 20,
+		"endLine": 67,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.MainActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainActivity.java",
+		"startLine": 20,
+		"endLine": 67,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.mattermost.rnbeta.MainActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.mattermost.MainApplication moved to com.mattermost.rnbeta.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/MainApplication.java",
+		"startLine": 35,
+		"endLine": 85,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.MainApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/MainApplication.java",
+		"startLine": 35,
+		"endLine": 85,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.mattermost.rnbeta.MainApplication"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.mattermost.NotificationsLifecycleFacade moved to com.mattermost.rnbeta.NotificationsLifecycleFacade",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/NotificationsLifecycleFacade.java",
+		"startLine": 15,
+		"endLine": 91,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.mattermost.NotificationsLifecycleFacade"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/mattermost/rnbeta/NotificationsLifecycleFacade.java",
+		"startLine": 15,
+		"endLine": 91,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.mattermost.rnbeta.NotificationsLifecycleFacade"
+}]
+}
+]
+}

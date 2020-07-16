@@ -1,0 +1,609 @@
+{
+	"repository": "https://github.com/lesspass/lesspass",
+	"sha1": "b81b62709ad1eb46b933314cd4b0ae08f9dea57e",
+	"url": "https://github.com/lesspass/lesspass/commit/b81b62709ad1eb46b933314cd4b0ae08f9dea57e",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter reactInstanceManager : ReactInstanceManager in method private initializeFlipper(context Context, reactInstanceManager ReactInstanceManager) : void from class com.lesspass.android.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/android/MainApplication.java",
+		"startLine": 48,
+		"endLine": 72,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private initializeFlipper(context Context) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/android/MainApplication.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 24,
+		"endColumn": 65,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "reactInstanceManager : ReactInstanceManager"
+}, {
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/android/MainApplication.java",
+		"startLine": 49,
+		"endLine": 78,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private initializeFlipper(context Context, reactInstanceManager ReactInstanceManager) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/lesspass/lesspass",
+	"sha1": "f93f8c92fdce576b7d61a75aa67740de7380a246",
+	"url": "https://github.com/lesspass/lesspass/commit/f93f8c92fdce576b7d61a75aa67740de7380a246",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder mobile/android/app/src/test/java/com/lesspass to mobile/android/app/src/test/java/com/lesspass/android",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/test/java/com/lesspass/CryptoTest.java",
+		"startLine": 9,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "CryptoTest"
+}],
+	"rightSideLocations": [{
+		"filePath": "mobile/android/app/src/test/java/com/lesspass/android/CryptoTest.java",
+		"startLine": 9,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "CryptoTest"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/lesspass/lesspass",
+	"sha1": "b23dc901c8d0303f8fff6696b4dbaf991ab852e8",
+	"url": "https://github.com/lesspass/lesspass/commit/b23dc901c8d0303f8fff6696b4dbaf991ab852e8",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class com.lesspass.Crypto moved to com.lesspass.android.Crypto",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 10,
+		"endLine": 45,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.Crypto"
+}],
+	"rightSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/android/Crypto.java",
+		"startLine": 10,
+		"endLine": 45,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.android.Crypto"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.lesspass.LessPassModule moved to com.lesspass.android.LessPassModule",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/LessPassModule.java",
+		"startLine": 14,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.LessPassModule"
+}],
+	"rightSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/android/LessPassModule.java",
+		"startLine": 14,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.android.LessPassModule"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.lesspass.LessPassReactPackage moved to com.lesspass.android.LessPassReactPackage",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/LessPassReactPackage.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.LessPassReactPackage"
+}],
+	"rightSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/android/LessPassReactPackage.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.android.LessPassReactPackage"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.lesspass.MainActivity moved to com.lesspass.android.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/MainActivity.java",
+		"startLine": 8,
+		"endLine": 23,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.MainActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/android/MainActivity.java",
+		"startLine": 8,
+		"endLine": 23,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.android.MainActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.lesspass.MainApplication moved to com.lesspass.android.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/MainApplication.java",
+		"startLine": 16,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.MainApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/android/MainApplication.java",
+		"startLine": 16,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.android.MainApplication"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/lesspass/lesspass",
+	"sha1": "9c3794971e69fe5637da0f33721b3185b849b267",
+	"url": "https://github.com/lesspass/lesspass/commit/9c3794971e69fe5637da0f33721b3185b849b267",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder packages/lesspass-mobile to mobile",
+	"leftSideLocations": [{
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 10,
+		"endLine": 45,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.Crypto"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/LessPassModule.java",
+		"startLine": 14,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.LessPassModule"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/LessPassReactPackage.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.LessPassReactPackage"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/MainActivity.java",
+		"startLine": 8,
+		"endLine": 23,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.MainActivity"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/MainApplication.java",
+		"startLine": 16,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.MainApplication"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/test/java/com/lesspass/CryptoTest.java",
+		"startLine": 9,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "CryptoTest"
+}],
+	"rightSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 10,
+		"endLine": 45,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.Crypto"
+}, {
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/LessPassModule.java",
+		"startLine": 14,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.LessPassModule"
+}, {
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/LessPassReactPackage.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.LessPassReactPackage"
+}, {
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/MainActivity.java",
+		"startLine": 8,
+		"endLine": 23,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.MainActivity"
+}, {
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/MainApplication.java",
+		"startLine": 16,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.MainApplication"
+}, {
+		"filePath": "mobile/android/app/src/test/java/com/lesspass/CryptoTest.java",
+		"startLine": 9,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "CryptoTest"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/lesspass/lesspass",
+	"sha1": "e3eef1b7078a8449b7d7ee30694d194fe12b2c70",
+	"url": "https://github.com/lesspass/lesspass/commit/e3eef1b7078a8449b7d7ee30694d194fe12b2c70",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder packages/mobile to packages/lesspass-mobile",
+	"leftSideLocations": [{
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 10,
+		"endLine": 45,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.Crypto"
+}, {
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/LessPassModule.java",
+		"startLine": 14,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.LessPassModule"
+}, {
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/LessPassReactPackage.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.LessPassReactPackage"
+}, {
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/MainActivity.java",
+		"startLine": 8,
+		"endLine": 23,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.MainActivity"
+}, {
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/MainApplication.java",
+		"startLine": 16,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.MainApplication"
+}, {
+		"filePath": "packages/mobile/android/app/src/test/java/com/lesspass/CryptoTest.java",
+		"startLine": 9,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "CryptoTest"
+}],
+	"rightSideLocations": [{
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 10,
+		"endLine": 45,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.Crypto"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/LessPassModule.java",
+		"startLine": 14,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.LessPassModule"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/LessPassReactPackage.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.LessPassReactPackage"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/MainActivity.java",
+		"startLine": 8,
+		"endLine": 23,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.MainActivity"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/main/java/com/lesspass/MainApplication.java",
+		"startLine": 16,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.MainApplication"
+}, {
+		"filePath": "packages/lesspass-mobile/android/app/src/test/java/com/lesspass/CryptoTest.java",
+		"startLine": 9,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "CryptoTest"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/lesspass/lesspass",
+	"sha1": "8796eb9b4b6951d033573bdd679b821ac3f19c43",
+	"url": "https://github.com/lesspass/lesspass/commit/8796eb9b4b6951d033573bdd679b821ac3f19c43",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder mobile to packages/mobile",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 17,
+		"endLine": 49,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.Crypto"
+}, {
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/LessPassModule.java",
+		"startLine": 14,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.LessPassModule"
+}, {
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/LessPassReactPackage.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.LessPassReactPackage"
+}, {
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/MainApplication.java",
+		"startLine": 16,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.lesspass.MainApplication"
+}, {
+		"filePath": "mobile/android/app/src/test/java/com/lesspass/CryptoTest.java",
+		"startLine": 9,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "CryptoTest"
+}],
+	"rightSideLocations": [{
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 10,
+		"endLine": 45,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.Crypto"
+}, {
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/LessPassModule.java",
+		"startLine": 14,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.LessPassModule"
+}, {
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/LessPassReactPackage.java",
+		"startLine": 12,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.LessPassReactPackage"
+}, {
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/MainApplication.java",
+		"startLine": 16,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.lesspass.MainApplication"
+}, {
+		"filePath": "packages/mobile/android/app/src/test/java/com/lesspass/CryptoTest.java",
+		"startLine": 9,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "CryptoTest"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type secretData : char[] to secretData : byte[] in method public pbkdf2(secret String, salt String, iterations int, keyLength int) : String in class com.lesspass.Crypto",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 21,
+		"endLine": 21,
+		"startColumn": 20,
+		"endColumn": 53,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "secretData : char[]"
+}],
+	"rightSideLocations": [{
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 20,
+		"endColumn": 50,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "secretData : byte[]"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type sha256_HMAC : Mac to hmac : HMac in method public hmac(key String) : String in class com.lesspass.Crypto",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 35,
+		"endLine": 35,
+		"startColumn": 17,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "sha256_HMAC : Mac"
+}],
+	"rightSideLocations": [{
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 18,
+		"endColumn": 53,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "hmac : HMac"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable sha256_HMAC : Mac to hmac : HMac in method public hmac(key String) : String in class com.lesspass.Crypto",
+	"leftSideLocations": [{
+		"filePath": "mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 35,
+		"endLine": 35,
+		"startColumn": 17,
+		"endColumn": 60,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "sha256_HMAC : Mac"
+}],
+	"rightSideLocations": [{
+		"filePath": "packages/mobile/android/app/src/main/java/com/lesspass/Crypto.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 18,
+		"endColumn": 53,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "hmac : HMac"
+}]
+}
+]
+}

@@ -1,0 +1,318 @@
+{
+	"repository": "https://github.com/walleth/walleth",
+	"sha1": "1ded84cd331cd0da153189610511ff5ef0952df2",
+	"url": "https://github.com/walleth/walleth/commit/1ded84cd331cd0da153189610511ff5ef0952df2",
+	"refactorings": [{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @Database(entities = {AddressBookEntry.class,Balance.class,ChainInfo.class,Token.class,TransactionEntity.class}, version = 5) to @Database(entities = {AddressBookEntry.class,Balance.class,ChainInfo.class,Token.class,TransactionEntity.class}, version = 6) in class org.walleth.data.AppDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 17,
+		"endLine": 17,
+		"startColumn": 0,
+		"endColumn": 130,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Balance.class,ChainInfo.class,Token.class,TransactionEntity.class}, version = 5)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 17,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.walleth.data.AppDatabase"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 17,
+		"endLine": 17,
+		"startColumn": 0,
+		"endColumn": 130,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Balance.class,ChainInfo.class,Token.class,TransactionEntity.class}, version = 6)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 17,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "org.walleth.data.AppDatabase"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/walleth/walleth",
+	"sha1": "6f403f73429ad28d308c3d713e8adf5f5fc32969",
+	"url": "https://github.com/walleth/walleth/commit/6f403f73429ad28d308c3d713e8adf5f5fc32969",
+	"refactorings": [{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 4) to @Database(entities = {AddressBookEntry.class,Balance.class,ChainInfo.class,Token.class,TransactionEntity.class}, version = 5) in class org.walleth.data.AppDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 113,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 4)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 26,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.walleth.data.AppDatabase"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 17,
+		"endLine": 17,
+		"startColumn": 0,
+		"endColumn": 130,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Balance.class,ChainInfo.class,Token.class,TransactionEntity.class}, version = 5)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 17,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "org.walleth.data.AppDatabase"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/walleth/walleth",
+	"sha1": "a863bce0de8db0823f369dd2aed61507ee9e431f",
+	"url": "https://github.com/walleth/walleth/commit/a863bce0de8db0823f369dd2aed61507ee9e431f",
+	"refactorings": [{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 3) to @Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 4) in class org.walleth.data.AppDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 113,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 3)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 26,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.walleth.data.AppDatabase"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 113,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 4)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 26,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "org.walleth.data.AppDatabase"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/walleth/walleth",
+	"sha1": "3996e3bc73bfb8ad7345d3e01ed0fe71db5336bb",
+	"url": "https://github.com/walleth/walleth/commit/3996e3bc73bfb8ad7345d3e01ed0fe71db5336bb",
+	"refactorings": [{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 2) to @Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 3) in class org.walleth.data.AppDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 113,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 2)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 26,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.walleth.data.AppDatabase"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 113,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 3)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 26,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "org.walleth.data.AppDatabase"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/walleth/walleth",
+	"sha1": "bdfbd14fe15437f0b4d8f3118268a6e4258e57c0",
+	"url": "https://github.com/walleth/walleth/commit/bdfbd14fe15437f0b4d8f3118268a6e4258e57c0",
+	"refactorings": [{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 1) to @Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 2) in class org.walleth.data.AppDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 113,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 1)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 26,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.walleth.data.AppDatabase"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 113,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 2)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 26,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "org.walleth.data.AppDatabase"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/walleth/walleth",
+	"sha1": "8d1334e52ab006be9047e0cdb963b41faabf30e8",
+	"url": "https://github.com/walleth/walleth/commit/8d1334e52ab006be9047e0cdb963b41faabf30e8",
+	"refactorings": [{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @Database(entities = {AddressBookEntry.class,Token.class,Balance.class}, version = 1) to @Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 1) in class org.walleth.data.AppDatabase",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 13,
+		"endLine": 13,
+		"startColumn": 0,
+		"endColumn": 88,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class}, version = 1)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 13,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "org.walleth.data.AppDatabase"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 113,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@Database(entities = {AddressBookEntry.class,Token.class,Balance.class,TransactionEntity.class}, version = 1)"
+}, {
+		"filePath": "app/src/main/java/org/walleth/data/AppDatabase.java",
+		"startLine": 15,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "org.walleth.data.AppDatabase"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/walleth/walleth",
+	"sha1": "41bb38b83408728d87cb539a98a38d57b39b422c",
+	"url": "https://github.com/walleth/walleth/commit/41bb38b83408728d87cb539a98a38d57b39b422c",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class org.ligi.walleth.iac.BarCodeIntentIntegrator moved to org.walleth.iac.BarCodeIntentIntegrator",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/org/ligi/walleth/iac/BarCodeIntentIntegrator.java",
+		"startLine": 21,
+		"endLine": 452,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.ligi.walleth.iac.BarCodeIntentIntegrator"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/org/walleth/iac/BarCodeIntentIntegrator.java",
+		"startLine": 21,
+		"endLine": 452,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.walleth.iac.BarCodeIntentIntegrator"
+}]
+}
+]
+}

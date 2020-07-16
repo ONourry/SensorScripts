@@ -1,0 +1,498 @@
+{
+	"repository": "https://github.com/jfilter/frag-den-staat-app",
+	"sha1": "d56c64dbe6d612c56b165fbd6d9a284c7c3629d2",
+	"url": "https://github.com/jfilter/frag-den-staat-app/commit/d56c64dbe6d612c56b165fbd6d9a284c7c3629d2",
+	"refactorings": [{
+	"type": "Change Package",
+	"description": "Change Package com.fragdenstaat to de.fragdenstaat.app",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainActivity.java",
+		"startLine": 11,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.MainActivity"
+}, {
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainApplication.java",
+		"startLine": 24,
+		"endLine": 65,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.MainApplication"
+}, {
+		"filePath": "android/app/src/main/java/com/fragdenstaat/SplashActivity.java",
+		"startLine": 11,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.SplashActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainActivity.java",
+		"startLine": 11,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.MainActivity"
+}, {
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainApplication.java",
+		"startLine": 24,
+		"endLine": 65,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.MainApplication"
+}, {
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/SplashActivity.java",
+		"startLine": 11,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.SplashActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.fragdenstaat.MainActivity moved to de.fragdenstaat.app.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainActivity.java",
+		"startLine": 11,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.MainActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainActivity.java",
+		"startLine": 11,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.MainActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.fragdenstaat.MainApplication moved to de.fragdenstaat.app.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainApplication.java",
+		"startLine": 24,
+		"endLine": 65,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.MainApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainApplication.java",
+		"startLine": 24,
+		"endLine": 65,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.MainApplication"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.fragdenstaat.SplashActivity moved to de.fragdenstaat.app.SplashActivity",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/SplashActivity.java",
+		"startLine": 11,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.SplashActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/SplashActivity.java",
+		"startLine": 11,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.SplashActivity"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/jfilter/frag-den-staat-app",
+	"sha1": "e9edac728be00462eaee3f88ea98a0c9269dcbd0",
+	"url": "https://github.com/jfilter/frag-den-staat-app/commit/e9edac728be00462eaee3f88ea98a0c9269dcbd0",
+	"refactorings": [{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder android/app/src/main/java/com to android/app/src/main/java/com/fragdenstaat",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/SplashActivity.java",
+		"startLine": 11,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.SplashActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/SplashActivity.java",
+		"startLine": 11,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.SplashActivity"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/jfilter/frag-den-staat-app",
+	"sha1": "3a39ea03bce230c1b67c02819505ba27026024b4",
+	"url": "https://github.com/jfilter/frag-den-staat-app/commit/3a39ea03bce230c1b67c02819505ba27026024b4",
+	"refactorings": [{
+	"type": "Change Package",
+	"description": "Change Package de.fragdenstaat.app to com.fragdenstaat",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "de.fragdenstaat.app.MainActivity"
+}, {
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainApplication.java",
+		"startLine": 23,
+		"endLine": 57,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "de.fragdenstaat.app.MainApplication"
+}, {
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/SplashActivity.java",
+		"startLine": 11,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "de.fragdenstaat.app.SplashActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.MainActivity"
+}, {
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainApplication.java",
+		"startLine": 22,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.MainApplication"
+}, {
+		"filePath": "android/app/src/main/java/com/SplashActivity.java",
+		"startLine": 11,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.SplashActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class de.fragdenstaat.app.MainActivity moved to com.fragdenstaat.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "de.fragdenstaat.app.MainActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.MainActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class de.fragdenstaat.app.MainApplication moved to com.fragdenstaat.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainApplication.java",
+		"startLine": 23,
+		"endLine": 57,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "de.fragdenstaat.app.MainApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainApplication.java",
+		"startLine": 22,
+		"endLine": 61,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.MainApplication"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class de.fragdenstaat.app.SplashActivity moved to com.fragdenstaat.SplashActivity",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/SplashActivity.java",
+		"startLine": 11,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "de.fragdenstaat.app.SplashActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/SplashActivity.java",
+		"startLine": 11,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.SplashActivity"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/jfilter/frag-den-staat-app",
+	"sha1": "c7333b40fd0062a3bf5f662ed8c0d59e21192aa9",
+	"url": "https://github.com/jfilter/frag-den-staat-app/commit/c7333b40fd0062a3bf5f662ed8c0d59e21192aa9",
+	"refactorings": [{
+	"type": "Change Package",
+	"description": "Change Package com.fragdenstaat to de.fragdenstaat.app",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.MainActivity"
+}, {
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainApplication.java",
+		"startLine": 18,
+		"endLine": 48,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.MainApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.MainActivity"
+}, {
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainApplication.java",
+		"startLine": 18,
+		"endLine": 48,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.MainApplication"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.fragdenstaat.MainActivity moved to de.fragdenstaat.app.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.MainActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.MainActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.fragdenstaat.MainApplication moved to de.fragdenstaat.app.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainApplication.java",
+		"startLine": 18,
+		"endLine": 48,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaat.MainApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/de/fragdenstaat/app/MainApplication.java",
+		"startLine": 18,
+		"endLine": 48,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "de.fragdenstaat.app.MainApplication"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/jfilter/frag-den-staat-app",
+	"sha1": "356695b4aed040cd0501b9cd84104a3ea86503a4",
+	"url": "https://github.com/jfilter/frag-den-staat-app/commit/356695b4aed040cd0501b9cd84104a3ea86503a4",
+	"refactorings": [{
+	"type": "Change Package",
+	"description": "Change Package com.fragdenstaatapp to com.fragdenstaat",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaatapp/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaatapp.MainActivity"
+}, {
+		"filePath": "android/app/src/main/java/com/fragdenstaatapp/MainApplication.java",
+		"startLine": 14,
+		"endLine": 40,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaatapp.MainApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.MainActivity"
+}, {
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainApplication.java",
+		"startLine": 14,
+		"endLine": 40,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.MainApplication"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.fragdenstaatapp.MainActivity moved to com.fragdenstaat.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaatapp/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaatapp.MainActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainActivity.java",
+		"startLine": 5,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.MainActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class com.fragdenstaatapp.MainApplication moved to com.fragdenstaat.MainApplication",
+	"leftSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaatapp/MainApplication.java",
+		"startLine": 14,
+		"endLine": 40,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.fragdenstaatapp.MainApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "android/app/src/main/java/com/fragdenstaat/MainApplication.java",
+		"startLine": 14,
+		"endLine": 40,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.fragdenstaat.MainApplication"
+}]
+}
+]
+}

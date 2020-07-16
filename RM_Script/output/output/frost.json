@@ -1,0 +1,1110 @@
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "68e879d3a5ee6a63f247527d4a427d0a283afa65",
+	"url": "https://github.com/dkanada/frost/commit/68e879d3a5ee6a63f247527d4a427d0a283afa65",
+	"refactorings": [{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter res : Resources to resources : Resources in method public bitmapLoad(resources Resources, resId int, width int, height int) : Bitmap in class com.dkanada.icecons.utils.ImageUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/ImageUtils.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 37,
+		"endColumn": 50,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "res : Resources"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/ImageUtils.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 37,
+		"endColumn": 56,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "resources : Resources"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "c147c66579142a45801e2337e4c303d397dae069",
+	"url": "https://github.com/dkanada/frost/commit/c147c66579142a45801e2337e4c303d397dae069",
+	"refactorings": [{
+	"type": "Rename Class",
+	"description": "Rename Class com.dkanada.icecons.async.BitmapWorkerTask renamed to com.dkanada.icecons.async.BitmapLoadTask",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/async/BitmapWorkerTask.java",
+		"startLine": 10,
+		"endLine": 36,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.dkanada.icecons.async.BitmapWorkerTask"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/async/BitmapLoadTask.java",
+		"startLine": 10,
+		"endLine": 36,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "renamed type declaration",
+		"codeElement": "com.dkanada.icecons.async.BitmapLoadTask"
+}]
+},
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type task : BitmapWorkerTask to task : BitmapLoadTask in method public bitmapLoadAsync(imageView ImageView, resources Resources, resId int, width int, height int) : void in class com.dkanada.icecons.utils.ImageUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/ImageUtils.java",
+		"startLine": 16,
+		"endLine": 27,
+		"startColumn": 26,
+		"endColumn": 11,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "task : BitmapWorkerTask"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/ImageUtils.java",
+		"startLine": 15,
+		"endLine": 26,
+		"startColumn": 24,
+		"endColumn": 11,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "task : BitmapLoadTask"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "e4212d41bfb1e87af052a3c0c910aacc9a3fbfe8",
+	"url": "https://github.com/dkanada/frost/commit/e4212d41bfb1e87af052a3c0c910aacc9a3fbfe8",
+	"refactorings": [{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type tempId : Integer to resId : int in method private createLayout(width int) : void in class com.dkanada.icecons.activities.WallpaperActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/WallpaperActivity.java",
+		"startLine": 76,
+		"endLine": 76,
+		"startColumn": 27,
+		"endColumn": 109,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "tempId : Integer"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/WallpaperActivity.java",
+		"startLine": 75,
+		"endLine": 75,
+		"startColumn": 23,
+		"endColumn": 104,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "resId : int"
+}]
+},
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable tempId : Integer to resId : int in method private createLayout(width int) : void in class com.dkanada.icecons.activities.WallpaperActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/WallpaperActivity.java",
+		"startLine": 76,
+		"endLine": 76,
+		"startColumn": 27,
+		"endColumn": 109,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "tempId : Integer"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/WallpaperActivity.java",
+		"startLine": 75,
+		"endLine": 75,
+		"startColumn": 23,
+		"endColumn": 104,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "resId : int"
+}]
+},
+{
+	"type": "Replace Variable With Attribute",
+	"description": "Replace Variable With Attribute id : int to resId : int in method protected doInBackground(parameters Integer...) : Bitmap in class com.dkanada.icecons.async.BitmapWorkerTask",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/async/BitmapWorkerTask.java",
+		"startLine": 28,
+		"endLine": 28,
+		"startColumn": 13,
+		"endColumn": 86,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "id : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/async/BitmapWorkerTask.java",
+		"startLine": 16,
+		"endLine": 16,
+		"startColumn": 16,
+		"endColumn": 21,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "resId : int"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "3fe9358db02dff6df84432ed5382662cae4c9f44",
+	"url": "https://github.com/dkanada/frost/commit/3fe9358db02dff6df84432ed5382662cae4c9f44",
+	"refactorings": [{
+	"type": "Rename Variable",
+	"description": "Rename Variable aboutText : TextView to imgText : TextView in method private createLayout() : void in class com.dkanada.icecons.activities.LicenseActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/LicenseActivity.java",
+		"startLine": 87,
+		"endLine": 87,
+		"startColumn": 18,
+		"endColumn": 48,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "aboutText : TextView"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/LicenseActivity.java",
+		"startLine": 87,
+		"endLine": 87,
+		"startColumn": 18,
+		"endColumn": 46,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "imgText : TextView"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "cd0831e5d64b635a5bb66dbef5e7997a4b4436f9",
+	"url": "https://github.com/dkanada/frost/commit/cd0831e5d64b635a5bb66dbef5e7997a4b4436f9",
+	"refactorings": [{
+	"type": "Rename Class",
+	"description": "Rename Class com.dkanada.icecons.utils.IceImageUtils renamed to com.dkanada.icecons.utils.ImageUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/IceImageUtils.java",
+		"startLine": 11,
+		"endLine": 92,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.dkanada.icecons.utils.IceImageUtils"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/ImageUtils.java",
+		"startLine": 11,
+		"endLine": 92,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "renamed type declaration",
+		"codeElement": "com.dkanada.icecons.utils.ImageUtils"
+}]
+},
+{
+	"type": "Rename Class",
+	"description": "Rename Class com.dkanada.icecons.utils.IceScreenUtils renamed to com.dkanada.icecons.utils.ScreenUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/IceScreenUtils.java",
+		"startLine": 5,
+		"endLine": 22,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.dkanada.icecons.utils.IceScreenUtils"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/ScreenUtils.java",
+		"startLine": 5,
+		"endLine": 22,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "renamed type declaration",
+		"codeElement": "com.dkanada.icecons.utils.ScreenUtils"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "f34dd6c7737f5383adc6bd268a804a713834a77b",
+	"url": "https://github.com/dkanada/frost/commit/f34dd6c7737f5383adc6bd268a804a713834a77b",
+	"refactorings": [{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute res : Resources to resources : Resources in class com.dkanada.icecons.async.BitmapWorkerTask",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/async/BitmapWorkerTask.java",
+		"startLine": 16,
+		"endLine": 16,
+		"startColumn": 22,
+		"endColumn": 25,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "res : Resources"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/async/BitmapWorkerTask.java",
+		"startLine": 16,
+		"endLine": 16,
+		"startColumn": 22,
+		"endColumn": 31,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "resources : Resources"
+}]
+},
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter res : Resources to resources : Resources in method public bitmapLoadAsync(imageView ImageView, context Context, resources Resources, image String, width int, height int) : void in class com.dkanada.icecons.utils.IceImageUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/IceImageUtils.java",
+		"startLine": 12,
+		"endLine": 12,
+		"startColumn": 61,
+		"endColumn": 74,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "res : Resources"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/IceImageUtils.java",
+		"startLine": 13,
+		"endLine": 13,
+		"startColumn": 78,
+		"endColumn": 97,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "resources : Resources"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "dbbabffa26ee3a70cdb053bb0cb0b98efae891ff",
+	"url": "https://github.com/dkanada/frost/commit/dbbabffa26ee3a70cdb053bb0cb0b98efae891ff",
+	"refactorings": [{
+	"type": "Rename Method",
+	"description": "Rename Method public wallpaperPicker(v View) : void renamed to public wallpaperActivity(v View) : void in class com.dkanada.icecons.activities.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/MainActivity.java",
+		"startLine": 176,
+		"endLine": 179,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public wallpaperPicker(v View) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/MainActivity.java",
+		"startLine": 176,
+		"endLine": 179,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public wallpaperActivity(v View) : void"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public iconView(v View) : void renamed to public iconActivity(v View) : void in class com.dkanada.icecons.activities.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/MainActivity.java",
+		"startLine": 181,
+		"endLine": 184,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public iconView(v View) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/MainActivity.java",
+		"startLine": 181,
+		"endLine": 184,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public iconActivity(v View) : void"
+}]
+},
+{
+	"type": "Rename Method",
+	"description": "Rename Method public licenseShow(v View) : void renamed to public licenseActivity(v View) : void in class com.dkanada.icecons.activities.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/MainActivity.java",
+		"startLine": 186,
+		"endLine": 189,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public licenseShow(v View) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/MainActivity.java",
+		"startLine": 186,
+		"endLine": 189,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public licenseActivity(v View) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "a283bb21b650f2177c527bed7335d2c9c6490f2c",
+	"url": "https://github.com/dkanada/frost/commit/a283bb21b650f2177c527bed7335d2c9c6490f2c",
+	"refactorings": [{
+	"type": "Change Package",
+	"description": "Change Package ovh.ice to com.dkanada",
+	"leftSideLocations": [{
+		"filePath": "app/src/androidTest/java/ovh/ice/icecons/ApplicationTest.java",
+		"startLine": 6,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.ApplicationTest"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/IconActivity.java",
+		"startLine": 18,
+		"endLine": 288,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.IconActivity"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/LicenseActivity.java",
+		"startLine": 16,
+		"endLine": 106,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.LicenseActivity"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/MainActivity.java",
+		"startLine": 20,
+		"endLine": 190,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.MainActivity"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/WallpaperActivity.java",
+		"startLine": 19,
+		"endLine": 108,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.WallpaperActivity"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/WallpaperSetActivity.java",
+		"startLine": 21,
+		"endLine": 98,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.WallpaperSetActivity"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/async/BitmapWorkerTask.java",
+		"startLine": 13,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.async.BitmapWorkerTask"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/utils/IceImageUtils.java",
+		"startLine": 10,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.utils.IceImageUtils"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/utils/IceScreenUtils.java",
+		"startLine": 5,
+		"endLine": 22,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.utils.IceScreenUtils"
+}, {
+		"filePath": "app/src/test/java/ovh/ice/icecons/ExampleUnitTest.java",
+		"startLine": 7,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.ExampleUnitTest"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/androidTest/java/com/dkanada/icecons/ApplicationTest.java",
+		"startLine": 6,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.ApplicationTest"
+}, {
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/IconActivity.java",
+		"startLine": 18,
+		"endLine": 288,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.IconActivity"
+}, {
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/LicenseActivity.java",
+		"startLine": 16,
+		"endLine": 106,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.LicenseActivity"
+}, {
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/MainActivity.java",
+		"startLine": 20,
+		"endLine": 190,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.MainActivity"
+}, {
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/WallpaperActivity.java",
+		"startLine": 19,
+		"endLine": 108,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.WallpaperActivity"
+}, {
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/WallpaperSetActivity.java",
+		"startLine": 21,
+		"endLine": 98,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.WallpaperSetActivity"
+}, {
+		"filePath": "app/src/main/java/com/dkanada/icecons/async/BitmapWorkerTask.java",
+		"startLine": 13,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.async.BitmapWorkerTask"
+}, {
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/IceImageUtils.java",
+		"startLine": 10,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.utils.IceImageUtils"
+}, {
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/IceScreenUtils.java",
+		"startLine": 5,
+		"endLine": 22,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.utils.IceScreenUtils"
+}, {
+		"filePath": "app/src/test/java/com/dkanada/icecons/ExampleUnitTest.java",
+		"startLine": 7,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.ExampleUnitTest"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.ApplicationTest moved to com.dkanada.icecons.ApplicationTest",
+	"leftSideLocations": [{
+		"filePath": "app/src/androidTest/java/ovh/ice/icecons/ApplicationTest.java",
+		"startLine": 6,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.ApplicationTest"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/androidTest/java/com/dkanada/icecons/ApplicationTest.java",
+		"startLine": 6,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.ApplicationTest"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.activities.IconActivity moved to com.dkanada.icecons.activities.IconActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/IconActivity.java",
+		"startLine": 18,
+		"endLine": 288,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.IconActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/IconActivity.java",
+		"startLine": 18,
+		"endLine": 288,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.IconActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.activities.LicenseActivity moved to com.dkanada.icecons.activities.LicenseActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/LicenseActivity.java",
+		"startLine": 16,
+		"endLine": 106,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.LicenseActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/LicenseActivity.java",
+		"startLine": 16,
+		"endLine": 106,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.LicenseActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.activities.MainActivity moved to com.dkanada.icecons.activities.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/MainActivity.java",
+		"startLine": 20,
+		"endLine": 190,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.MainActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/MainActivity.java",
+		"startLine": 20,
+		"endLine": 190,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.MainActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.activities.WallpaperActivity moved to com.dkanada.icecons.activities.WallpaperActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/WallpaperActivity.java",
+		"startLine": 19,
+		"endLine": 108,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.WallpaperActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/WallpaperActivity.java",
+		"startLine": 19,
+		"endLine": 108,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.WallpaperActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.activities.WallpaperSetActivity moved to com.dkanada.icecons.activities.WallpaperSetActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/WallpaperSetActivity.java",
+		"startLine": 21,
+		"endLine": 98,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.activities.WallpaperSetActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/activities/WallpaperSetActivity.java",
+		"startLine": 21,
+		"endLine": 98,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.activities.WallpaperSetActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.async.BitmapWorkerTask moved to com.dkanada.icecons.async.BitmapWorkerTask",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/async/BitmapWorkerTask.java",
+		"startLine": 13,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.async.BitmapWorkerTask"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/async/BitmapWorkerTask.java",
+		"startLine": 13,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.async.BitmapWorkerTask"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.utils.IceImageUtils moved to com.dkanada.icecons.utils.IceImageUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/utils/IceImageUtils.java",
+		"startLine": 10,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.utils.IceImageUtils"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/IceImageUtils.java",
+		"startLine": 10,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.utils.IceImageUtils"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.utils.IceScreenUtils moved to com.dkanada.icecons.utils.IceScreenUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/utils/IceScreenUtils.java",
+		"startLine": 5,
+		"endLine": 22,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.utils.IceScreenUtils"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/com/dkanada/icecons/utils/IceScreenUtils.java",
+		"startLine": 5,
+		"endLine": 22,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.utils.IceScreenUtils"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.ExampleUnitTest moved to com.dkanada.icecons.ExampleUnitTest",
+	"leftSideLocations": [{
+		"filePath": "app/src/test/java/ovh/ice/icecons/ExampleUnitTest.java",
+		"startLine": 7,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.ExampleUnitTest"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/test/java/com/dkanada/icecons/ExampleUnitTest.java",
+		"startLine": 7,
+		"endLine": -1,
+		"startColumn": 0,
+		"endColumn": -1,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "com.dkanada.icecons.ExampleUnitTest"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "effa3fb9d697946dbc2b932d694bb043c0b328e8",
+	"url": "https://github.com/dkanada/frost/commit/effa3fb9d697946dbc2b932d694bb043c0b328e8",
+	"refactorings": [{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.BitmapWorkerTask moved to ovh.ice.icecons.async.BitmapWorkerTask",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/BitmapWorkerTask.java",
+		"startLine": 11,
+		"endLine": 49,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.BitmapWorkerTask"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/async/BitmapWorkerTask.java",
+		"startLine": 13,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "ovh.ice.icecons.async.BitmapWorkerTask"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.IceImageUtils moved to ovh.ice.icecons.utils.IceImageUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/IceImageUtils.java",
+		"startLine": 12,
+		"endLine": 92,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.IceImageUtils"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/utils/IceImageUtils.java",
+		"startLine": 10,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "ovh.ice.icecons.utils.IceImageUtils"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.IceScreenUtils moved to ovh.ice.icecons.utils.IceScreenUtils",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/IceScreenUtils.java",
+		"startLine": 5,
+		"endLine": 22,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.IceScreenUtils"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/utils/IceScreenUtils.java",
+		"startLine": 5,
+		"endLine": 22,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "ovh.ice.icecons.utils.IceScreenUtils"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.IconActivity moved to ovh.ice.icecons.activities.IconActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/IconActivity.java",
+		"startLine": 16,
+		"endLine": 286,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.IconActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/IconActivity.java",
+		"startLine": 18,
+		"endLine": 288,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "ovh.ice.icecons.activities.IconActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.LicenseActivity moved to ovh.ice.icecons.activities.LicenseActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/LicenseActivity.java",
+		"startLine": 16,
+		"endLine": 106,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.LicenseActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/LicenseActivity.java",
+		"startLine": 16,
+		"endLine": 106,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "ovh.ice.icecons.activities.LicenseActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.MainActivity moved to ovh.ice.icecons.activities.MainActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/MainActivity.java",
+		"startLine": 19,
+		"endLine": 189,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.MainActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/MainActivity.java",
+		"startLine": 20,
+		"endLine": 190,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "ovh.ice.icecons.activities.MainActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.WallpaperActivity moved to ovh.ice.icecons.activities.WallpaperActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperActivity.java",
+		"startLine": 15,
+		"endLine": 98,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.WallpaperActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/WallpaperActivity.java",
+		"startLine": 19,
+		"endLine": 102,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "ovh.ice.icecons.activities.WallpaperActivity"
+}]
+},
+{
+	"type": "Move Class",
+	"description": "Move Class ovh.ice.icecons.WallpaperSetActivity moved to ovh.ice.icecons.activities.WallpaperSetActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperSetActivity.java",
+		"startLine": 17,
+		"endLine": 94,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "ovh.ice.icecons.WallpaperSetActivity"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/activities/WallpaperSetActivity.java",
+		"startLine": 21,
+		"endLine": 98,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "ovh.ice.icecons.activities.WallpaperSetActivity"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "8e4467d5215c585067f325fa0c59b2728c4c48e3",
+	"url": "https://github.com/dkanada/frost/commit/8e4467d5215c585067f325fa0c59b2728c4c48e3",
+	"refactorings": [{
+	"type": "Remove Parameter",
+	"description": "Remove Parameter v : View in method public wallpaperView(v View, imageId Integer) : void from class ovh.ice.icecons.WallpaperActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperActivity.java",
+		"startLine": 112,
+		"endLine": 112,
+		"startColumn": 32,
+		"endColumn": 38,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "removed parameter",
+		"codeElement": "v : View"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperActivity.java",
+		"startLine": 112,
+		"endLine": 117,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public wallpaperView(v View, imageId Integer) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperActivity.java",
+		"startLine": 100,
+		"endLine": 105,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with removed parameter",
+		"codeElement": "public wallpaperView(imageId Integer) : void"
+}]
+}
+]
+}
+{
+	"repository": "https://github.com/dkanada/frost",
+	"sha1": "38cd8b224b8821ff7904187e0c7f6b1366e163b5",
+	"url": "https://github.com/dkanada/frost/commit/38cd8b224b8821ff7904187e0c7f6b1366e163b5",
+	"refactorings": [{
+	"type": "Add Parameter",
+	"description": "Add Parameter width : int in method private createLayout(width int) : void from class ovh.ice.icecons.WallpaperActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperActivity.java",
+		"startLine": 49,
+		"endLine": 99,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private createLayout() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperActivity.java",
+		"startLine": 48,
+		"endLine": 48,
+		"startColumn": 32,
+		"endColumn": 41,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "added parameter",
+		"codeElement": "width : int"
+}, {
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperActivity.java",
+		"startLine": 48,
+		"endLine": 110,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "method declaration with added parameter",
+		"codeElement": "private createLayout(width int) : void"
+}]
+},
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type imageId : Integer to imageId : int in class ovh.ice.icecons.WallpaperSetActivity",
+	"leftSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperSetActivity.java",
+		"startLine": 16,
+		"endLine": 16,
+		"startColumn": 21,
+		"endColumn": 28,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "imageId : Integer"
+}],
+	"rightSideLocations": [{
+		"filePath": "app/src/main/java/ovh/ice/icecons/WallpaperSetActivity.java",
+		"startLine": 23,
+		"endLine": 23,
+		"startColumn": 17,
+		"endColumn": 24,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "imageId : int"
+}]
+}
+]
+}
