@@ -88,9 +88,13 @@ def main():
 
         # downloadAPK(apkName,apkDir)
 
-    for apk in apkDir:
+    for apk in os.listdir(apkDir):
+        path_to_apk = os.path.join(apkDir,apk)
+        if not os.path.isfile(path_to_apk):
+              continue
+        print("apk " + apk)
         outputLocation = os.path.join(outputDir, apk)
-
+        print("output loc " + outputLocation)
         if not os.path.isdir(outputLocation):
             os.mkdir(outputLocation)
 
