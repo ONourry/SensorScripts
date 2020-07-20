@@ -6,23 +6,23 @@ import subprocess
 
 connection = None
 cursor = None
-try:
-    connection = psycopg2.connect(user=os.environ.get('POSTGRES_REFACTORING_USER'),
-                                  password=os.environ.get('POSTGRES_REFACTORING_PW'),
-                                  host="127.0.0.1",
-                                  port="5432",
-                                  database="EnergyConsumption")
-    cursor = connection.cursor()
-    # Print PostgreSQL Connection properties
-    print(connection.get_dsn_parameters(), "\n")
-
-    # Print PostgreSQL version
-    cursor.execute("SELECT version();")
-    record = cursor.fetchone()
-    print("You are connected to - ", record, "\n")
-
-except (Exception) as error:
-    print("Error while connecting to PostgreSQL", error)
+# try:
+#     connection = psycopg2.connect(user=os.environ.get('POSTGRES_REFACTORING_USER'),
+#                                   password=os.environ.get('POSTGRES_REFACTORING_PW'),
+#                                   host="127.0.0.1",
+#                                   port="5432",
+#                                   database="EnergyConsumption")
+#     cursor = connection.cursor()
+#     # Print PostgreSQL Connection properties
+#     print(connection.get_dsn_parameters(), "\n")
+#
+#     # Print PostgreSQL version
+#     cursor.execute("SELECT version();")
+#     record = cursor.fetchone()
+#     print("You are connected to - ", record, "\n")
+#
+# except (Exception) as error:
+#     print("Error while connecting to PostgreSQL", error)
 
 
 def downloadAPK(apkName,apkDir):
